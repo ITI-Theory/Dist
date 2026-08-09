@@ -54,7 +54,7 @@ Go to **https://zenodo.org/uploads/new** for each. Do them in order:
 | File in this directory | Upload? | Record type |
 |---|---|---|
 | `C1-canonical-omnibus-REF-ALREADY-PUBLISHED.pdf` | ❌ DO NOT RE-UPLOAD — reference copy only | Already live as C1 |
-| `C1-thesis-a4-REF-NOT-SEPARATE-RECORD.pdf` | ❌ DO NOT UPLOAD — same content as C1 | Covered by C1 omnibus |
+| `C1-thesis-a4-REF-NOT-SEPARATE-RECORD.pdf` | ❌ DO NOT UPLOAD — same content as C1 | Covered by C1 omnibus |  
 | `P10-soma-temporal-dynamics.pdf` | ✅ upload | Publication → Preprint |
 | `P11-zoomable-somatic-field.pdf` | ✅ upload | Publication → Preprint |
 | `P12-experimental-validation.pdf` | ✅ upload | Publication → Preprint |
@@ -217,7 +217,29 @@ P11 zoomable-somatic:     https://doi.org/10.5281/zenodo._______
 P12 experimental-val:     https://doi.org/10.5281/zenodo._______
 P13 missing-limbic:       https://doi.org/10.5281/zenodo._______
 C2  ttheory-omnibus:      https://doi.org/10.5281/zenodo._______
+P14 usf-euclidean-qft:    https://doi.org/10.5281/zenodo._______
+P15 usf-interacting-qft:  https://doi.org/10.5281/zenodo._______
 ```
 
 Then update `paper/ZENODO_RELEASE_SHEETS.md` and `T/.github/copilot-instructions.md`
 with the new DOIs.
+
+---
+
+## P14 — USF as Euclidean QFT (NEW — 2026-08-10)
+- **File**: `P14-usf-euclidean-qft.pdf` *(build: `make osqft` in `paper/`)*
+- **Type**: Publication → Preprint
+- **Title**: The Universal Somatic Field as a Euclidean Quantum Field Theory: Osterwalder–Schrader Axiom Verification via Lean 4
+- **Keywords**: Osterwalder–Schrader axioms, Euclidean quantum field theory, Gaussian Free Field, reflection positivity, somatic field theory, Lean 4, formal proof
+- **Description**: Proves that the free-field USF satisfies all five Osterwalder–Schrader axioms (OS0–OS4) via identification with the Gaussian Free Field (mass = wavenumber). Machine-verified in Lean 4, 0 sorries. Builds on Douglas et al. (2026) OSforGFF library.
+- **Related**: `Is part of` → https://doi.org/10.5281/zenodo.20460771
+
+---
+
+## P15 — Interacting USF QFT (NEW — 2026-08-10)
+- **File**: `P15-usf-interacting-qft.pdf` *(build: `make intqft` in `paper/`)*
+- **Type**: Publication → Preprint
+- **Title**: Osterwalder–Schrader Axioms for the Interacting Universal Somatic Field: Reflection Positivity under Hopfield Coupling
+- **Keywords**: interacting quantum field theory, Hopfield coupling, reflection positivity, phi-4 theory, Glimm–Jaffe, constructive QFT, proof programme
+- **Description**: Research programme paper. Proves OS axioms for the single-component Hopfield-USF below critical coupling via mass renormalisation. Identifies proof obligations for the multi-component case (open). Clinical interpretation: the phase transition at critical coupling is the trauma-attractor transition.
+- **Related**: `Is part of` → https://doi.org/10.5281/zenodo.20460771
