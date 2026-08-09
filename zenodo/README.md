@@ -51,13 +51,15 @@ Go to **https://zenodo.org** → sign in with your GitHub account (Alistair-John
 
 Go to **https://zenodo.org/uploads/new** for each. Do them in order:
 
-| # | File in this directory | Record type |
+| File in this directory | Upload? | Record type |
 |---|---|---|
-| P10 | `P10-soma-temporal-dynamics.pdf` | Publication → Preprint |
-| P11 | `P11-zoomable-somatic-field.pdf` | Publication → Preprint |
-| P12 | `P12-experimental-validation.pdf` | Publication → Preprint |
-| P13 | `P13-missing-limbic-layer.pdf` | Publication → Preprint |
-| C2 | `C2-ttheory-fractal-omnibus.pdf` | Publication → Book |
+| `C1-canonical-omnibus-REF-ALREADY-PUBLISHED.pdf` | ❌ DO NOT RE-UPLOAD — reference copy only | Already live as C1 |
+| `C1-thesis-a4-REF-NOT-SEPARATE-RECORD.pdf` | ❌ DO NOT UPLOAD — same content as C1 | Covered by C1 omnibus |
+| `P10-soma-temporal-dynamics.pdf` | ✅ upload | Publication → Preprint |
+| `P11-zoomable-somatic-field.pdf` | ✅ upload | Publication → Preprint |
+| `P12-experimental-validation.pdf` | ✅ upload | Publication → Preprint |
+| `P13-missing-limbic-layer.pdf` | ✅ upload | Publication → Preprint |
+| `C2-ttheory-fractal-omnibus.pdf` | ✅ upload | Publication → Book |
 
 For all records:
 - **Access**: Open
