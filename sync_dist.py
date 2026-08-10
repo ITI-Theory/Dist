@@ -129,18 +129,26 @@ def sync_lulu():
     cp(FRAC  / "ttheory-vol1.pdf",    DIST / "lulu" / "03-ttheory-vol1-foundation.pdf")
     cp(FRAC  / "ttheory-vol2.pdf",    DIST / "lulu" / "04-ttheory-vol2-application.pdf")
 
+def sync_zenodo():
+    """Update zenodo staging files that might change after a rebuild.
+    Note: individual paper PDFs (P10-P20) are already uploaded; only C2 changes regularly."""
+    print("── zenodo/ ──────────────────────────")
+    cp(FRAC / "ttheory-omnibus.pdf", DIST / "zenodo" / "C2-ttheory-fractal-programme.pdf")
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Sync built PDFs into Dist subdirs.")
-    parser.add_argument("--papers", action="store_true", help="Sync papers/ only")
-    parser.add_argument("--nlm",    action="store_true", help="Sync nlm-min/ and nlm-max/ only")
-    parser.add_argument("--lulu",   action="store_true", help="Sync lulu/ only")
+    parser.add_argument("--papers",  action="store_true", help="Sync papers/ only")
+    parser.add_argument("--nlm",     action="store_true", help="Sync nlm-min/ and nlm-max/ only")
+    parser.add_argument("--lulu",    action="store_true", help="Sync lulu/ only")
+    parser.add_argument("--zenodo",  action="store_true", help="Sync zenodo/ only")
     args = parser.parse_args()
 
     if not any(vars(args).values()):
-        sync_papers(); sync_nlm(); sync_lulu()
+        sync_papers(); sync_nlm(); sync_lulu(); sync_zenodo()
     else:
-        if args.papers: sync_papers()
-        if args.nlm:    sync_nlm()
-        if args.lulu:   sync_lulu()
+        if args.papers:  sync_papers()
+        if args.nlm:     sync_nlm()
+        if args.lulu:    sync_lulu()
+        if args.zenodo:  sync_zenodo()
 
     print("\nDone. Run: git add -A && git commit -m 'dist: sync' && git push")
