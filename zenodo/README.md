@@ -1,5 +1,23 @@
 # Zenodo — Release Runbook
 
+---
+
+## ⚠ frankenstein-p1 patch (2026-08-10) — 4 new versions to upload
+
+These 4 records were updated after the original Frankenstein release and need
+a **New version** upload on Zenodo (go to the record → "New version" button):
+
+| Record | Current DOI | What changed | New file |
+|---|---|---|---|
+| P11 zoomable-somatic-field | https://doi.org/10.5281/zenodo.21873391 | Open Research Problems: Problems 1+2 now CLOSED; axiom table updated | `papers/zoomable-somatic-field.pdf` |
+| P12 experimental-validation | https://doi.org/10.5281/zenodo.21873456 | "Open Problem 5" → "GAP-1 in the USF test suite" | `papers/experimental-validation.pdf` |
+| C1v2 omnibus-v2 | https://doi.org/10.5281/zenodo.21873942 | Rebuilt — now includes updated zUSF paper (P11) | `papers/omnibus-a4.pdf` |
+| C2 fractal-programme | https://doi.org/10.5281/zenodo.21873722 | Rebuilt with TOC + updated experimental-validation content | `zenodo/C2-ttheory-fractal-programme.pdf` |
+
+For each: go to the record → **New version** → upload new file → keep all metadata → **Publish**.
+
+---
+
 ## Already published (do NOT re-upload)
 
 | Record | DOI |
