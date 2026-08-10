@@ -1,11 +1,10 @@
 # Lulu Print Files
 
-4 files, all A4 hardcover standard colour.
+3 files, all A4 hardcover standard colour.
 
 | File | Contents | ~Pages | ~Cost |
 |---|---|---|---|
 | `01-omnibus-v2.pdf` | Canonical collected works V2 (P1–P15) | ~500 | ~€40 |
-| `02-thesis-a4.pdf` | A4 thesis format (condensed, ~410pp) | ~410 | ~€35 |
 | `03-ttheory-vol1-foundation.pdf` | [T]-Theory Vol I: Foundation (domains 1–8) | ~380 | ~€34 |
 | `04-ttheory-vol2-application.pdf` | [T]-Theory Vol II: Application (domains 9–15) | ~420 | ~€36 |
 
