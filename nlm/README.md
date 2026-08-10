@@ -13,6 +13,9 @@ Upload **both PDFs** into one NotebookLM notebook (or one at a time for focused 
 
 ## Quick start
 
+**Live notebook (pre-loaded):** https://notebook.google.com/notebook/ec1a7e74-7666-40ff-acdf-e11baa95766b
+
+Or build your own:
 1. Go to **https://notebooklm.google.com**
 2. Click **New Notebook**
 3. Drag both PDFs from this directory into the upload area
