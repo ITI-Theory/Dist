@@ -41,3 +41,7 @@ gold rules. Compile with `xelatex` against the Lulu cover spec
 
 **Browse:** [`lulu-cover-template/`](https://github.com/ITI-Theory/Dist/tree/main/stuff/lulu-cover-template)
 Paired with: [`Dist/lulu/01-omnibus-v2.pdf`](https://github.com/ITI-Theory/Dist/blob/main/lulu/01-omnibus-v2.pdf)
+
+---
+
+*Frankenstein release — 2026-08-10.* Cheatsheet rebuilt: 0 sorries, all 4 proof obligations closed. Sticker and cover template unchanged.

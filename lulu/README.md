@@ -9,3 +9,7 @@
 | `04-ttheory-vol2-application.pdf` | [T]-Theory Vol II: Application (domains 9–15) | ~420 | ~€36 |
 
 Upload at https://lulu.com — A4, hardcover, standard colour.
+
+---
+
+*Frankenstein release — 2026-08-10.* All 3 files current. Vol I and Vol II include TOC.
