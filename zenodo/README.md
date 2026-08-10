@@ -174,7 +174,7 @@ P10 soma-temporal-dynamics:    https://doi.org/10.5281/zenodo.21872785
 P11 zoomable-somatic-field:    https://doi.org/10.5281/zenodo.21873391
 P12 experimental-validation:   https://doi.org/10.5281/zenodo.21873456
 P13 missing-limbic-layer:      https://doi.org/10.5281/zenodo.21873646
-P16 geographic-somatic-field:  https://doi.org/10.5281/zenodo._______
+P16 geographic-somatic-field:  https://doi.org/10.5281/zenodo.21874416
 P17 gestalt-field-dynamics:    https://doi.org/10.5281/zenodo._______
 P18 preverbal-manifold:        https://doi.org/10.5281/zenodo._______
 P19 swarm-propagator:          https://doi.org/10.5281/zenodo._______
