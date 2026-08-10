@@ -1,0 +1,87 @@
+% [T]-Theory — Lulu Book Cover Template
+% Compile with XeLaTeX
+% A4 size matches Lulu 6x9 inch hardcover when trimmed
+% Lulu spine width: ~0.04 inch per page; adjust \spinewidth for your page count
+
+\documentclass[a4paper]{article}
+\usepackage[paperwidth=210mm,paperheight=297mm,margin=0mm]{geometry}
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{positioning,calc}
+
+% ─── Colours ─────────────────────────────────────────────────────────────────
+\definecolor{TBlack}{HTML}{0A0A0A}      % near-black background
+\definecolor{TGold}{HTML}{C9A84C}       % [T]-Theory gold
+\definecolor{TWhite}{HTML}{F5F5F0}      % off-white text
+\definecolor{TGrey}{HTML}{888888}       % subtitle grey
+
+% ─── Fonts ───────────────────────────────────────────────────────────────────
+\setmainfont{Linux Libertine O}
+\setsansfont{Linux Biolinum O}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{tikzpicture}[remember picture, overlay]
+
+  % Full-page background
+  \fill[TBlack] (current page.south west) rectangle (current page.north east);
+
+  % ── Decorative field lines (abstract wave pattern) ──────────────────────
+  \foreach \i in {1,...,8} {
+    \draw[TGold!20, line width=0.3pt, opacity=0.4]
+      ($(current page.west)+(0,\i*3.5cm)$)
+      .. controls ($(current page.center)+(0,\i*1.2cm-5cm)$)
+         and ($(current page.center)+(2cm,\i*0.8cm-4cm)$) ..
+      ($(current page.east)+(0,\i*2.8cm)$);
+  }
+
+  % ── [T] watermark ────────────────────────────────────────────────────────
+  \node[anchor=center, opacity=0.06] at ($(current page.center)+(0,2cm)$) {
+    \fontsize{280}{280}\selectfont\sffamily\bfseries\color{TGold}[T]
+  };
+
+  % ── Title block ──────────────────────────────────────────────────────────
+  \node[anchor=north, text width=160mm, align=center]
+    at ($(current page.north)+(0,-38mm)$) {
+      % Series label
+      {\fontsize{11}{14}\selectfont\sffamily\color{TGrey}
+        [T]-THEORY RESEARCH PROGRAMME}\\[8mm]
+      % Main title — edit here
+      {\fontsize{28}{34}\selectfont\rmfamily\bfseries\color{TWhite}
+        The Soma-Field:\\[2mm]
+        Collected Works}\\[6mm]
+      % Subtitle / edition
+      {\fontsize{14}{18}\selectfont\rmfamily\color{TGold}
+        Second Edition (P1–P20, 2026)}\\[4mm]
+      % Rule
+      {\color{TGold}\rule{100mm}{0.5pt}}
+  };
+
+  % ── Author ───────────────────────────────────────────────────────────────
+  \node[anchor=center, text width=140mm, align=center]
+    at ($(current page.center)+(0,-40mm)$) {
+      {\fontsize{16}{20}\selectfont\rmfamily\color{TWhite}
+        Alistair Johnson}\\[3mm]
+      {\fontsize{10}{13}\selectfont\sffamily\color{TGrey}
+        ORCID 0009-0007-2194-0850\\[1mm]
+        Independent Researcher, Zurich}
+  };
+
+  % ── Tag line ─────────────────────────────────────────────────────────────
+  \node[anchor=south, text width=160mm, align=center]
+    at ($(current page.south)+(0,28mm)$) {
+      {\fontsize{10}{13}\selectfont\sffamily\color{TGrey}
+        A science nested inside an art movement}
+  };
+
+  % ── Bottom rule ──────────────────────────────────────────────────────────
+  \draw[TGold, line width=0.8pt]
+    ($(current page.south west)+(20mm,22mm)$)
+    -- ($(current page.south east)+(-20mm,22mm)$);
+
+\end{tikzpicture}
+
+\end{document}
