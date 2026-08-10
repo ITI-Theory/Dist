@@ -170,7 +170,7 @@ Author=Alistair Johnson · ORCID 0009-0007-2194-0850 · Independent Researcher �
 ## After uploading — record DOIs here
 
 ```
-P10 soma-temporal-dynamics:    https://doi.org/10.5281/zenodo._______
+P10 soma-temporal-dynamics:    https://doi.org/10.5281/zenodo.21872785
 P11 zoomable-somatic-field:    https://doi.org/10.5281/zenodo._______
 P12 experimental-validation:   https://doi.org/10.5281/zenodo._______
 P13 missing-limbic-layer:      https://doi.org/10.5281/zenodo._______
