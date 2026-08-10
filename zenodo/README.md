@@ -109,6 +109,11 @@ P10 soma-temporal-dynamics:    https://doi.org/10.5281/zenodo._______
 P11 zoomable-somatic-field:    https://doi.org/10.5281/zenodo._______
 P12 experimental-validation:   https://doi.org/10.5281/zenodo._______
 P13 missing-limbic-layer:      https://doi.org/10.5281/zenodo._______
+P16 geographic-somatic-field:  https://doi.org/10.5281/zenodo._______
+P17 gestalt-field-dynamics:    https://doi.org/10.5281/zenodo._______
+P18 preverbal-manifold:        https://doi.org/10.5281/zenodo._______
+P19 swarm-propagator:          https://doi.org/10.5281/zenodo._______
+P20 universal-somatic-field:   https://doi.org/10.5281/zenodo._______
 C2  ttheory-fractal-programme: https://doi.org/10.5281/zenodo._______
 C1v2 omnibus-v2:               https://doi.org/10.5281/zenodo._______
 C3  thesis-a4:                 https://doi.org/10.5281/zenodo._______
@@ -117,3 +122,38 @@ P15 usf-interacting-qft:       https://doi.org/10.5281/zenodo._______
 ```
 
 Then update `paper/ZENODO_RELEASE_SHEETS.md` and `U/.github/copilot-instructions.md`.
+
+### P16 — Geographic Somatic Field
+- **File**: `P16-geographic-somatic-field.pdf`
+- **Type**: Publication → Preprint
+- **Title**: The Geographic Somatic Field: Scale-Invariant Wave Propagation in Human Landscapes
+- **Keywords**: somatic field theory, geography, wave propagation, scale invariance, landscape, Green's function
+- **Related**: `Is part of` → https://doi.org/10.5281/zenodo.20460771
+
+### P17 — Gestalt Field Dynamics
+- **File**: `P17-gestalt-field-dynamics.pdf`
+- **Type**: Publication → Preprint
+- **Title**: The Mathematical Foundations of Gestalt Field Dynamics: Formalising the Soma-Field via Russellian Neutral Monism
+- **Keywords**: gestalt, neutral monism, soma field theory, formal foundations, consciousness, Russell
+- **Related**: `Is part of` → https://doi.org/10.5281/zenodo.20460771
+
+### P18 — Pre-Verbal Manifold
+- **File**: `P18-preverbal-manifold.pdf`
+- **Type**: Publication → Preprint
+- **Title**: The Pre-Verbal Manifold: A Soma-Field Case Study of Acquired Neurodevelopmental Phenotypes and the Limits of Onset-Based Diagnosis
+- **Keywords**: preverbal, somatic field, neurodevelopmental, diagnosis, ASD, ADHD, acquired phenotype
+- **Related**: `Is part of` → https://doi.org/10.5281/zenodo.20460771
+
+### P19 — Swarm Propagator
+- **File**: `P19-swarm-propagator.pdf`
+- **Type**: Publication → Preprint
+- **Title**: Single-Step Multi-Agent Coordination via Green's Function Propagators: A Macroscopic Brane Projection Framework
+- **Keywords**: swarm, multi-agent, Green's function, propagator, brane, coordination, somatic field
+- **Related**: `Is part of` → https://doi.org/10.5281/zenodo.20460771
+
+### P20 — Universal Somatic Field (Scale-Invariant Oscillators)
+- **File**: `P20-universal-somatic-field.pdf`
+- **Type**: Publication → Preprint
+- **Title**: The Universal Somatic Field: Green's Functions as Scale-Invariant Oscillators across Eleven Orders of Magnitude
+- **Keywords**: universal somatic field, Green's function, scale invariance, oscillators, eleven orders of magnitude, M-theory
+- **Related**: `Is part of` → https://doi.org/10.5281/zenodo.20460771
