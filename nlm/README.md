@@ -64,6 +64,7 @@ science, economics, law, PPE, and psychiatry/ASD.
 - *"What is the BFSS matrix model isomorphism?"*
 - *"How does the Hopfield energy function relate to the USF action?"*
 - *"What is the trauma-attractor phase transition at critical coupling κ_c?"*
+- *"How does Johnson's model of gravity compare to Einstein's?"*
 
 ### If you are a neuroscientist
 - *"How does the USF ground CEMI theory (McFadden's conscious electromagnetic information)?"*
