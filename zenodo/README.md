@@ -180,7 +180,7 @@ P18 preverbal-manifold:        https://doi.org/10.5281/zenodo._______
 P19 swarm-propagator:          https://doi.org/10.5281/zenodo._______
 P20 universal-somatic-field:   https://doi.org/10.5281/zenodo._______
 C2  ttheory-fractal-programme: https://doi.org/10.5281/zenodo.21873722
-C1v2 omnibus-v2:               https://doi.org/10.5281/zenodo._______
+C1v2 omnibus-v2:               https://doi.org/10.5281/zenodo.21873942
 P14 usf-euclidean-qft:         https://doi.org/10.5281/zenodo._______
 P15 usf-interacting-qft:       https://doi.org/10.5281/zenodo._______
 ```
