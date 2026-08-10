@@ -55,6 +55,23 @@ The model cites exact pages. All claims are verifiable.
 
 ---
 
+## Medical doctors
+
+- What is the soma-field theory account of chronic pain — how does field geometry sustain a pain attractor?
+- A patient presents with medically unexplained symptoms. What does the USF say about somatisation?
+- How does the theory model the gut-brain axis as a somatic field coupling?
+- What is the field-theoretic account of allostatic load and burnout?
+- How does the theory explain why stress accelerates autoimmune flares?
+- A patient with fibromyalgia shows no structural pathology. How does the USF describe their state?
+- How does the theory distinguish a trauma-frozen nervous system from depression biochemically vs. field-geometrically?
+- What does the USF say about placebo response — is it a field-coupling phenomenon?
+- How does the theory model the vagal brake and autonomic regulation in primary care terms?
+- What does "window of tolerance" mean as a formal field-bandwidth constraint, and how does that inform titrated dosing of stress?
+- A urologist sees a patient with chronic pelvic pain and a clear psychosomatic component. What does the field theory predict about treatment order?
+- How does the theory account for why psychosocial stress lowers cancer immunosurveillance?
+
+---
+
 ## Musicians and artists
 
 - How does the USF model music-induced affect dynamics?

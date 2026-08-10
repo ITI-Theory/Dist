@@ -57,6 +57,12 @@ Quick examples:
 
 Quick examples:
 
+### If you are a medical doctor
+- *"A patient has chronic pelvic pain, no structural cause. What does the field theory say about the attractor state sustaining it?"*
+- *"How does the USF explain why psychosocial stress lowers cancer immunosurveillance?"*
+- *"What is the field-theoretic account of medically unexplained symptoms / somatisation?"*
+- *"How does the theory model allostatic load and burnout?"*
+
 ### If you are a therapist or clinician
 - *"What does the soma-field theory say about why trauma forms faster than it heals?"*
 - *"How does the USF model the window of tolerance?"*
