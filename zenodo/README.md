@@ -21,7 +21,7 @@
 
 ## Files in this directory — pending upload
 
-Upload at https://zenodo.org/uploads/new. Order: P10 → P11 → P12 → P13 → C2 → C1v2 → C3 → P14 → P15.
+Upload at https://zenodo.org/uploads/new. Order: P10 → P11 → P12 → P13 → C2 → C1v2 → P14 → P15.
 
 All records: Access=Open, Licence=CC BY 4.0, Language=English,
 Author=Alistair Johnson · ORCID 0009-0007-2194-0850 · Independent Researcher · Zurich, Switzerland.
@@ -34,7 +34,6 @@ Author=Alistair Johnson · ORCID 0009-0007-2194-0850 · Independent Researcher �
 | `P13-missing-limbic-layer.pdf` | Preprint | The Missing Limbic Layer |
 | `C2-ttheory-fractal-programme.pdf` | Book | [T]-Theory: The Complete Fractal Programme |
 | `C1v2-omnibus.pdf` | Book | The Soma-Field: Collected Works (2nd ed., P1-P15) |
-| `C3-thesis-a4.pdf` | Thesis | The Universal Somatic Field (Thesis Format) |
 | `P14-usf-euclidean-qft.pdf` | Preprint | The USF as Euclidean QFT: OS Axiom Verification via Lean 4 |
 | `P15-usf-interacting-qft.pdf` | Preprint | OS Axioms for the Interacting USF |
 
@@ -86,13 +85,6 @@ Author=Alistair Johnson · ORCID 0009-0007-2194-0850 · Independent Researcher �
 - **Keywords**: soma field theory, collected works, Lean 4, consciousness, M-theory, QFT, Hopfield, trauma
 - **Related**: `Is new version of` → https://doi.org/10.5281/zenodo.20460771
 
-### C3 — Thesis A4 Format
-- **File**: `C3-thesis-a4.pdf`
-- **Type**: Thesis
-- **Title**: The Universal Somatic Field: A Scale-Invariant Field Theory of Emotional Dynamics (Thesis Format)
-- **Keywords**: soma field theory, thesis, emotional dynamics, M-theory, Lean 4
-- **Related**: `Is derived from` → https://doi.org/10.5281/zenodo.20460771
-
 ### P14 — USF as Euclidean QFT
 - **File**: `P14-usf-euclidean-qft.pdf`
 - **Type**: Publication → Preprint
@@ -125,7 +117,6 @@ P19 swarm-propagator:          https://doi.org/10.5281/zenodo._______
 P20 universal-somatic-field:   https://doi.org/10.5281/zenodo._______
 C2  ttheory-fractal-programme: https://doi.org/10.5281/zenodo._______
 C1v2 omnibus-v2:               https://doi.org/10.5281/zenodo._______
-C3  thesis-a4:                 https://doi.org/10.5281/zenodo._______
 P14 usf-euclidean-qft:         https://doi.org/10.5281/zenodo._______
 P15 usf-interacting-qft:       https://doi.org/10.5281/zenodo._______
 ```
