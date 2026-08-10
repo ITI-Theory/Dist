@@ -47,7 +47,15 @@ science, economics, law, PPE, and psychiatry/ASD.
 
 ---
 
-## How to ask the theory — example prompts
+## How to ask the theory
+
+**Full prompt guide with 50+ questions by audience:** [PROMPTS.md](../PROMPTS.md)
+
+Quick examples:
+
+**Full prompt guide with 50+ questions by audience:** [PROMPTS.md](../PROMPTS.md)
+
+Quick examples:
 
 ### If you are a therapist or clinician
 - *"What does the soma-field theory say about why trauma forms faster than it heals?"*
