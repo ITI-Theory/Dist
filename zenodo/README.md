@@ -14,6 +14,7 @@
 | P7 soma-field-patient-pov | https://doi.org/10.5281/zenodo.20460523 |
 | P8 the-tensor | https://doi.org/10.5281/zenodo.20460613 |
 | P9 music-affect-dynamics | https://doi.org/10.5281/zenodo.20460685 |
+| D2 lean-proofs-appendix | https://doi.org/10.5281/zenodo.20437858 |
 | C1 omnibus (1st ed, P1-P9) | https://doi.org/10.5281/zenodo.20460771 |
 
 ---
