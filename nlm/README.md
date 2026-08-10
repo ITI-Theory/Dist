@@ -115,5 +115,5 @@ Quick examples:
 ---
 
 ## Source files (in ITI-Theory/U repo)
-- `paper/bld/omnibus-a4.pdf` → `01-omnibus-v2.pdf`
-- `Part2/fractal-programme/bld/ttheory-omnibus-new.pdf` → `02-ttheory-fractal-programme.pdf`
+- [`U/paper/bld/omnibus-a4.pdf`](https://github.com/ITI-Theory/U/blob/main/paper/bld/omnibus-a4.pdf) → `01-omnibus-v2.pdf`
+- [`Part2/fractal-programme/bld/ttheory-omnibus-new.pdf`](https://github.com/ITI-Theory/U/blob/main/Part2/fractal-programme/bld/ttheory-omnibus-new.pdf) → `02-ttheory-fractal-programme.pdf`
