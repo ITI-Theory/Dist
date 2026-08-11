@@ -1,7 +1,7 @@
 # NotebookLM — Expert / Fine-Tuning Corpus
 
 Full corpus for deep research, expert interrogation, or model fine-tuning.
-27 files: 20 individual papers, 4 collected works, 1 formal proofs appendix, 1 cheat sheet, PROMPTS.md.
+29 files: 22 individual papers, 4 collected works, 1 formal proofs appendix, 1 cheat sheet, PROMPTS.md.
 
 For a general introduction, use [`nlm-min/`](../nlm-min/) instead (2 files).
 
@@ -11,7 +11,7 @@ For a general introduction, use [`nlm-min/`](../nlm-min/) instead (2 files).
 
 | File | Contents |
 |---|---|
-| `01-omnibus-v2.pdf` | All 21 canonical papers (P1–P21) in one volume |
+| `01-omnibus-v2.pdf` | All 22 canonical papers (P1–P22) in one volume |
 | `02-fractal-programme.pdf` | 15 domain books — the complete fractal programme |
 | `03-fractal-vol1-foundation.pdf` | Fractal Vol I: Foundation (domains 1–8) |
 | `04-fractal-vol2-application.pdf` | Fractal Vol II: Application (domains 9–15) |
@@ -44,6 +44,8 @@ For a general introduction, use [`nlm-min/`](../nlm-min/) instead (2 files).
 | `P18-preverbal-manifold.pdf` | P18 | Pre-verbal manifold, ASD, ADHD |
 | `P19-swarm-propagator.pdf` | P19 | O(N²) swarm coordination |
 | `P20-universal-somatic-field.pdf` | P20 | Scale-invariant oscillators |
+| `P21-cosmological-constant.pdf` | P21 | Cosmological constant as USF vacuum amplitude (Λ = 7/11, 7% off) |
+| `P22-dark-matter-spatial-vacuum.pdf` | P22 | Dark matter as spatial vacuum (Ω_DM = 3/11, 2.9% off) |
 
 ---
 
@@ -57,4 +59,4 @@ For a general introduction, use [`nlm-min/`](../nlm-min/) instead (2 files).
 
 ---
 
-*Frankenstein release — 2026-08-10 / P21 added 2026-08-11. 21 papers · 0 sorries · all proof obligations closed.*
+*Frankenstein release — 2026-08-10 / P21 added 2026-08-11 / P22 added 2026-08-12. 22 papers · 0 sorries · all proof obligations closed.*
