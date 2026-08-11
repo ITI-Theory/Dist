@@ -14,6 +14,6 @@ Released artifacts, PDFs, etc.
 
 *Frankenstein release — 2026-08-10*
 
-20 canonical papers (P1–P20) published to Zenodo. 15 fractal programme books built.
+21 canonical papers (P1–P21) published to Zenodo. 15 fractal programme books built.
 OS axioms machine-verified (0 sorries). All four former proof obligations closed.
 Print files: 3 Lulu hardcovers. NLM notebook live.

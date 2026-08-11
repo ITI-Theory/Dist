@@ -11,7 +11,7 @@ For a general introduction, use [`nlm-min/`](../nlm-min/) instead (2 files).
 
 | File | Contents |
 |---|---|
-| `01-omnibus-v2.pdf` | All 20 canonical papers (P1–P20) in one volume |
+| `01-omnibus-v2.pdf` | All 21 canonical papers (P1–P21) in one volume |
 | `02-fractal-programme.pdf` | 15 domain books — the complete fractal programme |
 | `03-fractal-vol1-foundation.pdf` | Fractal Vol I: Foundation (domains 1–8) |
 | `04-fractal-vol2-application.pdf` | Fractal Vol II: Application (domains 9–15) |
@@ -57,4 +57,4 @@ For a general introduction, use [`nlm-min/`](../nlm-min/) instead (2 files).
 
 ---
 
-*Frankenstein release — 2026-08-10. 20 papers · 0 sorries · all proof obligations closed.*
+*Frankenstein release — 2026-08-10 / P21 added 2026-08-11. 21 papers · 0 sorries · all proof obligations closed.*

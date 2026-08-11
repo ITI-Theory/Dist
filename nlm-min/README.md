@@ -1,7 +1,7 @@
 # NotebookLM — How to Ask the Theory
 
 **For general use (2 files, recommended starting point).**
-For the full expert corpus (20 papers + fractal programme), use [`nlm-max/`](../nlm-max/).
+For the full expert corpus (21 papers + fractal programme), use [`nlm-max/`](../nlm-max/).
 
 ## Files in this directory
 
@@ -9,7 +9,7 @@ Upload **both PDFs** into one NotebookLM notebook (or one at a time for focused 
 
 | File | Contents | Size |
 |---|---|---|
-| `01-omnibus-v2.pdf` | 20 canonical papers — the complete scientific core | ~3 MB |
+| `01-omnibus-v2.pdf` | 21 canonical papers — the complete scientific core | ~3 MB |
 | `02-ttheory-fractal-programme.pdf` | 15 domain books — the fractal programme | ~4.5 MB |
 
 ---
@@ -35,7 +35,7 @@ Alistair Johnson's complete 2026 research programme on the Universal Somatic Fie
 dynamics from a single master equation: the Helmholtz Green's function of a tensor
 field compactified from M-theory.
 
-Source 1 (20 canonical papers, omnibus V2): The scientific core. Covers the
+Source 1 (21 canonical papers, omnibus V2): The scientific core. Covers the
 foundational derivation from M-theory; the Field-Modulated Hopfield Network (FM-HN);
 quantum tunnelling in the limbic gate (QUANT-EXP-1, D-Wave experiment); swarm
 coordination O(N²) theorem; the 20-scale Zoom Operator; BFSS matrix isomorphism;
