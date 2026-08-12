@@ -57,7 +57,7 @@ PAPER_FILES = [
     ("ttheory-cheatsheet.pdf",            "ttheory-cheatsheet.pdf"),
     # omnibus
     ("omnibus-a4.pdf",     "omnibus-a4.pdf"),
-    ("omnibus-royal.pdf",  "omnibus-royal.pdf"),
+    # omnibus-royal.pdf intentionally excluded: Lulu print edition is A4 only
 ]
 
 # fractal-programme/bld/ → papers/
