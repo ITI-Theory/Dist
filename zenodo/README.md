@@ -18,6 +18,32 @@ For each: go to the record → **New version** → upload new file → keep all 
 
 ---
 
+## Zenodo community — check on each release
+
+Community URL: https://zenodo.org/communities/iti-theory/settings
+
+**Short description** (paste into Settings → Short description):
+```
+Universal Somatic Field: a scale-invariant field theory of emotional dynamics derived from M-theory.
+20 papers (P1–P20), Lean 4 formal proofs, D-Wave quantum experiment, OS axiom verification.
+Alistair Johnson · ORCID 0009-0007-2194-0850 · Zurich
+```
+
+**About page** (paste into Settings → Pages → About):
+```
+[T]-Theory Research Programme — Universal Somatic Field
+
+Complete research output of Alistair Johnson (ORCID 0009-0007-2194-0850), Independent Researcher, Zurich, 2025–2026.
+
+The Universal Somatic Field (USF) is a scale-invariant field theory of emotional dynamics derived from M-theory compactification. The field equation — the Helmholtz Green's function — governs propagation across 20 orders of magnitude from quantum foam to cosmological scales.
+
+Key results: The USF is the first emotional dynamics model proved to satisfy all five Osterwalder–Schrader axioms for a Euclidean quantum field theory (machine-verified in Lean 4, 0 sorries). The QUANT-EXP-1 D-Wave experiment demonstrates quantum tunnelling between emotional attractors. The Field-Modulated Hopfield Network (FM-HN) provides a falsifiable computational model of emotional regulation, neurodivergence, and trauma.
+
+This community contains 22+ records: individual papers (P1–P20), datasets (D1–D2), formal proofs appendix, collected omnibus editions, and the [T]-Theory Fractal Programme (15 domain books).
+```
+
+---
+
 ## Already published (do NOT re-upload)
 
 | Record | DOI |

@@ -120,3 +120,36 @@ Quick examples:
 ## Source files (in ITI-Theory/U repo)
 - [`U/paper/bld/omnibus-a4.pdf`](https://github.com/ITI-Theory/U/blob/main/paper/bld/omnibus-a4.pdf) → `01-omnibus-v2.pdf`
 - [`Part2/fractal-programme/bld/ttheory-omnibus-new.pdf`](https://github.com/ITI-Theory/U/blob/main/Part2/fractal-programme/bld/ttheory-omnibus-new.pdf) → `02-ttheory-fractal-programme.pdf`
+
+
+
+---nlm , make sure page is public, and is on the GH landing page
+
+URL: https://notebook.google.com/notebook/ec1a7e74-7666-40ff-acdf-e11baa95766b
+title [T]-Theory: Universal Somatic Field — Complete Research Programme (2026)
+custom notebook summary:
+
+
+Alistair Johnson's complete 2026 research programme on the Universal Somatic Field
+(USF) — a scale-invariant field theory deriving emotion, consciousness, and physical
+dynamics from a single master equation: the Helmholtz Green's function of a tensor
+field compactified from M-theory.
+
+###### Source 1 (20 canonical papers, omnibus V2): The scientific core.
+
+Covers the foundational derivation from M-theory; the Field-Modulated Hopfield Network (FM-HN);
+quantum tunnelling in the limbic gate (QUANT-EXP-1, D-Wave experiment); swarm
+coordination O(N²) theorem; the 20-scale Zoom Operator; BFSS matrix isomorphism;
+temporal dynamics and the Somatic Memory Kernel; OS axiom verification in Lean 4
+(the USF is a provably valid Euclidean quantum field theory).
+
+###### Source 2 (15 fractal programme books): 
+
+The same framework applied to 15 academic
+domains — physics, neuroscience, clinical psychology, computer science, formal
+mathematics, consciousness studies, complex systems, music and arts, geophysics, social
+science, economics, law, PPE, and psychiatry/ASD.
+
+Check out some [example questions.](https://github.com/ITI-Theory/Dist/blob/main/PROMPTS.md) or find out more about [\[T\]-Theory](https://github.com/ITI-Theory).
+
+To get going, try: _How does Johnson's model of gravity compare to Einstein's?_
