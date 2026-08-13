@@ -272,3 +272,85 @@ Then update `paper/ZENODO_RELEASE_SHEETS.md` and `U/.github/copilot-instructions
 | Related — Scheme | `DOI` |
 | Related — Relation | `Is part of` |
 | Related — Resource type | `Publication` |
+
+═══════════════════════════════════════════════════════════════
+
+## Phase 1 wrap — 2026-08-?? (next upload batch)
+
+Upload at https://zenodo.org/uploads/new.
+Order: P21 (after review) → P22 → P23 → P24.
+All records: Access=Open, Licence=CC BY 4.0, Language=English,
+Author=Alistair Johnson · ORCID 0009-0007-2194-0850 · Independent Researcher · Zurich, Switzerland.
+
+---
+
+### P21 — Cosmological Constant ⚠ needs review before upload
+
+| Field | Value |
+|---|---|
+| File | `P21-cosmological-constant.pdf` (build: `make cosmological`) |
+| Resource type | Publication → Preprint |
+| Title | `The Cosmological Constant as the Vacuum Amplitude of the Universal Somatic Field: Λ ≡ ⟨tr Φ⟩₀ from USF Compactification` |
+| Keywords | `cosmological constant, vacuum energy, Universal Somatic Field, M-theory, Planck scale, dark energy, de Sitter, compactification` |
+| Related — Identifier | `10.5281/zenodo.21873942` |
+| Related — Scheme | `DOI` |
+| Related — Relation | `Is part of` |
+| Related — Resource type | `Publication` |
+
+---
+
+### P22 — Dark Matter as Spatial Block Vacuum
+
+| Field | Value |
+|---|---|
+| File | `P22-dark-matter-spatial-vacuum.pdf` (build: `make darkmatter`) |
+| Resource type | Publication → Preprint |
+| Title | `Dark Matter as the Spatial Block Vacuum of 11-Dimensional M-Theory: Ω_DM = 3/11 from USF Spatial Sector` |
+| Keywords | `dark matter, Omega_DM, M-theory, spatial vacuum, compactification, Planck 2018, Universal Somatic Field, cosmology, 3/11` |
+| Related — Identifier | `10.5281/zenodo.21873942` |
+| Related — Scheme | `DOI` |
+| Related — Relation | `Is part of` |
+| Related — Resource type | `Publication` |
+
+---
+
+### P23 — [T]-Theory Fixed Points
+
+| Field | Value |
+|---|---|
+| File | `P23-ttheory-phenomena.pdf` (build: `make ttheory-phenomena`) |
+| Resource type | Publication → Preprint |
+| Title | `[T]-Theory as Fixed Point: The Universal Somatic Field Describes Its Own Propagation` |
+| Keywords | `fixed point, self-reference, Universal Somatic Field, [T]-Theory, Phase 2, science, art movement, propagation` |
+| Related — Identifier | `10.5281/zenodo.21873942` |
+| Related — Scheme | `DOI` |
+| Related — Relation | `Is part of` |
+| Related — Resource type | `Publication` |
+
+---
+
+### P24 — G₂ Symmetry Breaking
+
+| Field | Value |
+|---|---|
+| File | `P24-g2-symmetry-breaking.pdf` (build: `make g2`) |
+| Resource type | Publication → Preprint |
+| Title | `G₂ Symmetry Breaking in the BRECVEMA Emotional Tensor: W8ℝ = ⁶⁄₅I₈ + δW and the 8→7 Dimensional Resolution` |
+| Keywords | `G2 symmetry, BRECVEMA, emotional tensor, symmetry breaking, Lean 4, W8, 8 dimensions, 7 dimensions, M-theory, compactification` |
+| Related — Identifier | `10.5281/zenodo.21873942` |
+| Related — Scheme | `DOI` |
+| Related — Relation | `Is part of` |
+| Related — Resource type | `Publication` |
+
+---
+
+## After uploading — fill DOIs here
+
+```
+P21 cosmological-constant:    https://doi.org/10.5281/zenodo.XXXXXXX
+P22 dark-matter-spatial-vacuum: https://doi.org/10.5281/zenodo.XXXXXXX
+P23 ttheory-phenomena:        https://doi.org/10.5281/zenodo.XXXXXXX
+P24 g2-symmetry-breaking:     https://doi.org/10.5281/zenodo.XXXXXXX
+```
+
+Then update `U/.github/copilot-instructions.md` and both org READMEs.
