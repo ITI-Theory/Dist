@@ -19,17 +19,14 @@ which turned out to be useful, since the open items listed on it became the
 Lean 4 proof obligations that closed the formal verification.
 
 **Download:** [`ttheory-cheatsheet.pdf`](https://github.com/ITI-Theory/Dist/blob/main/stuff/ttheory-cheatsheet.pdf)
-Source: [`U/paper/soma/ttheory-cheatsheet/ttheory-cheatsheet.md`](https://github.com/ITI-Theory/U/blob/main/paper/soma/ttheory-cheatsheet/ttheory-cheatsheet.md)
-Rebuild: `cd U/paper && make cheatsheet`
 
 ---
 
 ### `t-theory-sticker.png`
 The [T]-Theory sticker design. Suitable for printing as a die-cut sticker
-(recommended: 90×90 mm on white vinyl, or 50 mm circle for laptop use).
+(recommended: 90×90 mm on white vinyl, or 50 mm circle for laptop use).
 
 **Download:** [`t-theory-sticker.png`](https://github.com/ITI-Theory/Dist/blob/main/stuff/t-theory-sticker.png)
-Source: [`U/Part2/fractal-programme/t-theory-sticker.png`](https://github.com/ITI-Theory/U/blob/main/Part2/fractal-programme/t-theory-sticker.png)
 
 ---
 

@@ -17,7 +17,7 @@
 **Order:** build → sync → Zenodo → Lulu → NLM → READMEs → commit.
 
 1. **Build** — `cd U/paper && make all` (rebuilds all PDFs from source)
-2. **Sync** — run `./sync_dist.py` (copies PDFs → `papers/`, `nlm-min/`, `nlm-max/`)
+2. **Sync** — run `python U/paper/scripts/sync_dist.py` (copies PDFs → `papers/`, `nlm-min/`, `nlm-max/`, `lulu/`, `stuff/`)
 3. **Zenodo** — follow `zenodo/README.md`:
    - New records: upload PDF → fill form fields → Publish → record DOI
    - Version patches: go to record → **New version** → upload → Publish
