@@ -1,0 +1,236 @@
+# PAPERS.yaml — Master paper registry for the Universal Somatic Field research programme
+# Single source of truth for: paper IDs, slugs, titles, DOIs, status, and file paths.
+#
+# STATUS values:
+#   published         — live on Zenodo, current version is latest
+#   needs-new-version — published but content changed; upload new version via Zenodo "New version"
+#   pending-review    — PDF ready but content needs review before upload
+#   pending-upload    — PDF ready; upload to Zenodo as new record
+#
+# FILE paths are relative to Dist/.
+# DOI is the concept DOI (resolves to latest version).
+# All records: CC BY 4.0 · Alistair Johnson · ORCID 0009-0007-2194-0850 · Zurich, Switzerland.
+#
+# Mirrors (copy-on-release from this file):
+#   U/.github/copilot-instructions.md  — AI context table
+#   .github-private/profile/README.md  — org member profile
+#   .github/profile/README.md          — public org profile
+#
+# Process runbook: Dist/zenodo/README.md
+# Release log:     Dist/README.md
+
+---
+
+canonical_papers:
+
+  - id: P1
+    slug: soma-field-paper
+    title: "The Soma-Field: A Wave-Based Model of Emotional Dynamics"
+    doi: "10.5281/zenodo.20350515"
+    status: published
+    file: papers/soma-field-paper.pdf
+
+  - id: P2
+    slug: quantum-soma-penrose
+    title: "Quantum Topology and Trauma: A Soma-Field Model of Limbic Gate Tunnelling"
+    doi: "10.5281/zenodo.20351230"
+    status: published
+    file: papers/quantum-soma-penrose.pdf
+
+  - id: P3
+    slug: mathematical-co-identification
+    title: "Mathematical Co-identification: A Formal Model of Therapeutic Attunement"
+    doi: "10.5281/zenodo.20287981"
+    status: published
+    file: papers/mathematical-co-identification.pdf
+
+  - id: P4
+    slug: soma-field-synthesis
+    title: "The Soma-Field Research Programme: A Synthesis"
+    doi: "10.5281/zenodo.20460118"
+    status: published
+    file: papers/soma-field-synthesis.pdf
+
+  - id: P5
+    slug: soma-physical-substrate
+    title: "The Physical Substrate of the Soma-Field"
+    doi: "10.5281/zenodo.20460357"
+    status: published
+    file: papers/soma-physical-substrate.pdf
+
+  - id: P6
+    slug: soma-field-book
+    title: "A Voyage into Trauma: The Soma-Field as Lived Experience"
+    doi: "10.5281/zenodo.20460455"
+    status: published
+    file: papers/soma-field-book.pdf
+
+  - id: P7
+    slug: soma-field-patient-pov
+    title: "Field Notes from the Inside: A Patient Perspective on the Soma-Field"
+    doi: "10.5281/zenodo.20460523"
+    status: published
+    file: papers/soma-field-patient-pov.pdf
+
+  - id: P8
+    slug: the-tensor
+    title: "The Tensor: Formal Structure of the Universal Somatic Field"
+    doi: "10.5281/zenodo.20460613"
+    status: published
+    file: papers/the-tensor.pdf
+
+  - id: P9
+    slug: music-affect-dynamics
+    title: "Music-Induced Affect Dynamics: A Soma-Field Model of the BRECVEMA Mechanisms"
+    doi: "10.5281/zenodo.20460685"
+    status: published
+    file: papers/music-affect-dynamics.pdf
+
+  - id: P10
+    slug: soma-temporal-dynamics
+    title: "Temporal Dynamics of the Universal Somatic Field: Retarded Propagators, Transition Rates, and the Memory of Feeling"
+    doi: "10.5281/zenodo.21872785"
+    status: published
+    file: papers/soma-temporal-dynamics.pdf
+
+  - id: P11
+    slug: zoomable-somatic-field
+    title: "The Zoomable Universal Somatic Field: A Scale-Invariant Green's Function Architecture"
+    doi: "10.5281/zenodo.21873391"
+    status: needs-new-version
+    notes: "Problems 1+2 now CLOSED; axiom table updated — upload new version"
+    file: papers/zoomable-somatic-field.pdf
+
+  - id: P12
+    slug: experimental-validation
+    title: "Experimental Benchmarks for the Universal Somatic Field Framework"
+    doi: "10.5281/zenodo.21873456"
+    status: needs-new-version
+    notes: '"Open Problem 5" → "GAP-1 in USF test suite" — upload new version'
+    file: papers/experimental-validation.pdf
+
+  - id: P13
+    slug: missing-limbic-layer
+    title: "The Missing Limbic Layer: A Somatic Field Extension of Hopfield Networks via the Correspondence Principle"
+    doi: "10.5281/zenodo.21873646"
+    status: published
+    file: papers/missing-limbic-layer.pdf
+
+  - id: P14
+    slug: usf-euclidean-qft
+    title: "The Universal Somatic Field as a Euclidean Quantum Field Theory: Osterwalder–Schrader Axiom Verification via Lean 4"
+    doi: "10.5281/zenodo.21874215"
+    status: published
+    file: papers/P14-usf-euclidean-qft.pdf
+
+  - id: P15
+    slug: usf-interacting-qft
+    title: "Osterwalder–Schrader Axioms for the Interacting Universal Somatic Field: Reflection Positivity under Hopfield Coupling"
+    doi: "10.5281/zenodo.21874332"
+    status: published
+    file: papers/P15-usf-interacting-qft.pdf
+
+  - id: P16
+    slug: geographic-somatic-field
+    title: "The Geographic Somatic Field: Scale-Invariant Wave Propagation in Human Landscapes"
+    doi: "10.5281/zenodo.21874416"
+    status: published
+    file: papers/geographic-somatic-field.pdf
+
+  - id: P17
+    slug: gestalt-field-dynamics
+    title: "The Mathematical Foundations of Gestalt Field Dynamics: Formalising the Soma-Field via Russellian Neutral Monism"
+    doi: "10.5281/zenodo.21874504"
+    status: published
+    file: papers/gestalt-field-dynamics.pdf
+
+  - id: P18
+    slug: preverbal-manifold
+    title: "The Pre-Verbal Manifold: A Soma-Field Case Study of Acquired Neurodevelopmental Phenotypes"
+    doi: "10.5281/zenodo.21874565"
+    status: published
+    file: papers/preverbal-manifold.pdf
+
+  - id: P19
+    slug: swarm-propagator
+    title: "Single-Step Multi-Agent Coordination via Green's Function Propagators: A Macroscopic Brane Projection Framework"
+    doi: "10.5281/zenodo.21874623"
+    status: published
+    file: papers/swarm-propagator.pdf
+
+  - id: P20
+    slug: universal-somatic-field
+    title: "The Universal Somatic Field: Green's Functions as Scale-Invariant Oscillators across Eleven Orders of Magnitude"
+    doi: "10.5281/zenodo.21874684"
+    status: published
+    file: papers/universal-somatic-field.pdf
+
+  - id: P21
+    slug: cosmological-constant-derivation
+    title: "The Cosmological Constant as the Vacuum Amplitude of the Universal Somatic Field: Λ ≡ ⟨tr Φ⟩₀ from USF Compactification"
+    doi: null
+    status: pending-review
+    notes: "PDF exists; content needs review before Zenodo upload"
+    file: papers/cosmological-constant-derivation.pdf
+
+  - id: P22
+    slug: dark-matter-spatial-vacuum
+    title: "Dark Matter as the Spatial Block Vacuum of 11-Dimensional M-Theory: Ω_DM = 3/11 from USF Spatial Sector"
+    doi: null
+    status: pending-upload
+    file: papers/dark-matter-spatial-vacuum.pdf
+
+  - id: P23
+    slug: ttheory-phenomena
+    title: "[T]-Theory as Fixed Point: The Universal Somatic Field Describes Its Own Propagation"
+    doi: null
+    status: pending-upload
+    file: papers/ttheory-phenomena.pdf
+
+  - id: P24
+    slug: g2-symmetry-breaking
+    title: "G₂ Symmetry Breaking in the BRECVEMA Emotional Tensor: W8ℝ = ⁶⁄₅I₈ + δW and the 8→7 Dimensional Resolution"
+    doi: null
+    status: pending-upload
+    file: papers/g2-symmetry-breaking.pdf
+
+datasets:
+
+  - id: D1
+    slug: SFT-DEMO-CASE
+    title: "SFT Applied: A Worked Clinical Example"
+    doi: "10.5281/zenodo.20459825"
+    status: published
+    file: papers/SFT-DEMO-CASE.pdf
+
+  - id: D2
+    slug: lean-proofs-appendix
+    title: "Lean 4 Formal Proofs Appendix"
+    doi: "10.5281/zenodo.20437858"
+    status: published
+    file: papers/lean-proofs-appendix.pdf
+
+collections:
+
+  - id: C1
+    slug: omnibus
+    title: "The Soma-Field: Collected Works — 1st Edition (P1–P9)"
+    doi: "10.5281/zenodo.20460771"
+    status: published
+    file: papers/omnibus-a4.pdf
+
+  - id: C1v2
+    slug: omnibus-v2
+    title: "The Soma-Field: Collected Works — 2nd Edition (P1–P20, 2026)"
+    doi: "10.5281/zenodo.21873942"
+    status: needs-new-version
+    notes: "Rebuilt with updated P11; upload new version"
+    file: papers/omnibus-a4.pdf
+
+  - id: C2
+    slug: ttheory-fractal-programme
+    title: "[T]-Theory: The Complete Fractal Programme — Fifteen Domain Books on the Universal Somatic Field"
+    doi: "10.5281/zenodo.21873722"
+    status: needs-new-version
+    notes: "Rebuilt with TOC + updated P12 content; upload new version"
+    file: zenodo/C2-ttheory-fractal-programme.pdf
