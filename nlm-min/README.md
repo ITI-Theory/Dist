@@ -1,7 +1,7 @@
 # NotebookLM — How to Ask the Theory
 
 **For general use (2 files, recommended starting point).**
-For the full expert corpus (22 papers + fractal programme), use [`nlm-max/`](../nlm-max/).
+For the full expert corpus (24 papers + fractal programme), use [`nlm-max/`](../nlm-max/).
 
 ## Files in this directory
 

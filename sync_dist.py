@@ -53,6 +53,8 @@ PAPER_FILES = [
     ("universal-somatic-field.pdf",       "universal-somatic-field.pdf"),
     ("cosmological-constant-derivation.pdf", "cosmological-constant-derivation.pdf"),
     ("dark-matter-spatial-vacuum.pdf",      "dark-matter-spatial-vacuum.pdf"),
+    ("g2-symmetry-breaking.pdf",            "g2-symmetry-breaking.pdf"),
+    ("ttheory-phenomena.pdf",               "ttheory-phenomena.pdf"),
     ("lean-proofs-appendix.pdf",          "lean-proofs-appendix.pdf"),
     ("ttheory-cheatsheet.pdf",            "ttheory-cheatsheet.pdf"),
     # omnibus
@@ -101,8 +103,8 @@ NLM_MAX_FROM_PAPERS = [
     ("swarm-propagator.pdf",              "P19-swarm-propagator.pdf"),
     ("universal-somatic-field.pdf",       "P20-universal-somatic-field.pdf"),
     ("cosmological-constant-derivation.pdf", "P21-cosmological-constant.pdf"),
-    ("dark-matter-spatial-vacuum.pdf",     "P22-dark-matter-spatial-vacuum.pdf"),
-    ("ttheory-cheatsheet.pdf",            "cheatsheet.pdf"),
+    ("dark-matter-spatial-vacuum.pdf",     "P22-dark-matter-spatial-vacuum.pdf"),    ("g2-symmetry-breaking.pdf",          "P24-g2-symmetry-breaking.pdf"),
+    ("ttheory-phenomena.pdf",             "P23-ttheory-phenomena.pdf"),    ("ttheory-cheatsheet.pdf",            "cheatsheet.pdf"),
 ]
 
 def sync_papers():

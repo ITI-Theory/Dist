@@ -46,6 +46,8 @@ For a general introduction, use [`nlm-min/`](../nlm-min/) instead (2 files).
 | `P20-universal-somatic-field.pdf` | P20 | Scale-invariant oscillators |
 | `P21-cosmological-constant.pdf` | P21 | Cosmological constant as USF vacuum amplitude (Λ = 7/11, 7% off) |
 | `P22-dark-matter-spatial-vacuum.pdf` | P22 | Dark matter as spatial vacuum (Ω_DM = 3/11, 2.9% off) |
+| `P23-ttheory-phenomena.pdf` | P23 | Fixed-point paper: USF describes its own propagation; Phase 2 gateway |
+| `P24-g2-symmetry-breaking.pdf` | P24 | G₂ symmetry breaking in W8ℝ; W = (6/5)I₈ + δW, 48.4% broken |
 
 ---
 
@@ -59,4 +61,4 @@ For a general introduction, use [`nlm-min/`](../nlm-min/) instead (2 files).
 
 ---
 
-*Frankenstein release — 2026-08-10 / P21 added 2026-08-11 / P22 added 2026-08-12. 22 papers · 0 sorries · all proof obligations closed.*
+*Frankenstein release — 2026-08-10 / P21 added 2026-08-11 / P22 added 2026-08-12. 24 papers · 0 sorries · all proof obligations closed.*
