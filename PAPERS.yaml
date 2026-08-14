@@ -218,6 +218,8 @@ collections:
     doi: "10.5281/zenodo.20460771"
     status: published
     file: papers/omnibus-a4.pdf
+    lulu_spine_title: "Soma-Field Collected Works"
+    lulu_spine_author: "Alistair Johnson"
 
   - id: C1v2
     slug: omnibus-v2
@@ -226,6 +228,8 @@ collections:
     status: needs-new-version
     notes: "Rebuilt with updated P11; upload new version"
     file: papers/omnibus-a4.pdf
+    lulu_spine_title: "Soma-Field Collected Works v2"
+    lulu_spine_author: "Alistair Johnson"
 
   - id: C2
     slug: ttheory-fractal-programme
@@ -234,3 +238,5 @@ collections:
     status: needs-new-version
     notes: "Rebuilt with TOC + updated P12 content; upload new version"
     file: zenodo/C2-ttheory-fractal-programme.pdf
+    lulu_spine_title: "[T]-Theory: The Fractal Programme"
+    lulu_spine_author: "Alistair Johnson"
