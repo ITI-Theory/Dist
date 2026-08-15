@@ -335,6 +335,7 @@ collections:
     nlm: 01-omnibus-v2
     lulu: 01-omnibus-v2
     zenodo_file: zenodo/C1v2-omnibus.pdf
+    nlm_uat: C1v2-omnibus-v2
     lulu_spine_title: "Soma-Field Collected Works v2"
     lulu_spine_author: "Alistair Johnson"
     lulu_linen: Black
@@ -350,6 +351,7 @@ collections:
     notes: "Rebuilt with TOC + updated P12 content; upload new version"
     file: papers/ttheory-omnibus.pdf
     zenodo_file: zenodo/C2-ttheory-fractal-programme.pdf
+    nlm_uat: C2-fractal-thesis
     build: fractal
     nlm_min: 02-ttheory-fractal-programme
     nlm: 02-fractal-programme
