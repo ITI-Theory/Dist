@@ -29,6 +29,10 @@ canonical_papers:
     doi: "10.5281/zenodo.20350515"
     status: published
     file: papers/soma-field-paper.pdf
+    make_class: paper
+    make_langs: multi
+    make_alias: main
+    nlm: P01-soma-field
 
   - id: P2
     slug: quantum-soma-penrose
@@ -36,6 +40,10 @@ canonical_papers:
     doi: "10.5281/zenodo.20351230"
     status: published
     file: papers/quantum-soma-penrose.pdf
+    make_class: paper
+    make_langs: multi
+    make_alias: quantum
+    nlm: P02-quantum-penrose
 
   - id: P3
     slug: mathematical-co-identification
@@ -43,6 +51,10 @@ canonical_papers:
     doi: "10.5281/zenodo.20287981"
     status: published
     file: papers/mathematical-co-identification.pdf
+    make_class: citeproc
+    make_langs: multi
+    make_alias: method
+    nlm: P03-mathematical-co-identification
 
   - id: P4
     slug: soma-field-synthesis
@@ -50,6 +62,10 @@ canonical_papers:
     doi: "10.5281/zenodo.20460118"
     status: published
     file: papers/soma-field-synthesis.pdf
+    make_class: citeproc
+    make_langs: multi
+    make_alias: synthesis
+    nlm: P04-synthesis
 
   - id: P5
     slug: soma-physical-substrate
@@ -57,6 +73,10 @@ canonical_papers:
     doi: "10.5281/zenodo.20460357"
     status: published
     file: papers/soma-physical-substrate.pdf
+    make_class: citeproc
+    make_langs: multi
+    make_alias: substrate
+    nlm: P05-physical-substrate
 
   - id: P6
     slug: soma-field-book
@@ -64,6 +84,10 @@ canonical_papers:
     doi: "10.5281/zenodo.20460455"
     status: published
     file: papers/soma-field-book.pdf
+    make_class: book
+    make_langs: multi
+    make_alias: book
+    nlm: P06-field-book
 
   - id: P7
     slug: soma-field-patient-pov
@@ -71,6 +95,10 @@ canonical_papers:
     doi: "10.5281/zenodo.20460523"
     status: published
     file: papers/soma-field-patient-pov.pdf
+    make_class: paper
+    make_langs: multi
+    make_alias: pov
+    nlm: P07-patient-pov
 
   - id: P8
     slug: the-tensor
@@ -78,6 +106,10 @@ canonical_papers:
     doi: "10.5281/zenodo.20460613"
     status: published
     file: papers/the-tensor.pdf
+    make_class: book
+    make_langs: multi
+    make_alias: tensor
+    nlm: P08-the-tensor
 
   - id: P9
     slug: music-affect-dynamics
@@ -85,6 +117,10 @@ canonical_papers:
     doi: "10.5281/zenodo.20460685"
     status: published
     file: papers/music-affect-dynamics.pdf
+    make_class: citeproc
+    make_langs: multi
+    make_alias: music
+    nlm: P09-music-affect
 
   - id: P10
     slug: soma-temporal-dynamics
@@ -92,6 +128,10 @@ canonical_papers:
     doi: "10.5281/zenodo.21872785"
     status: published
     file: papers/soma-temporal-dynamics.pdf
+    make_class: citeproc
+    make_langs: en
+    make_alias: temporal
+    nlm: P10-temporal-dynamics
 
   - id: P11
     slug: zoomable-somatic-field
@@ -100,6 +140,10 @@ canonical_papers:
     status: needs-new-version
     notes: "Problems 1+2 now CLOSED; axiom table updated — upload new version"
     file: papers/zoomable-somatic-field.pdf
+    make_class: citeproc
+    make_langs: en
+    make_alias: zsf
+    nlm: P11-zoomable-field
 
   - id: P12
     slug: experimental-validation
@@ -108,6 +152,10 @@ canonical_papers:
     status: needs-new-version
     notes: '"Open Problem 5" → "GAP-1 in USF test suite" — upload new version'
     file: papers/experimental-validation.pdf
+    make_class: citeproc
+    make_langs: en
+    make_alias: exp
+    nlm: P12-experimental-validation
 
   - id: P13
     slug: missing-limbic-layer
@@ -115,6 +163,10 @@ canonical_papers:
     doi: "10.5281/zenodo.21873646"
     status: published
     file: papers/missing-limbic-layer.pdf
+    make_class: citeproc
+    make_langs: en
+    make_alias: limbic
+    nlm: P13-missing-limbic-layer
 
   - id: P14
     slug: usf-euclidean-qft
@@ -122,6 +174,10 @@ canonical_papers:
     doi: "10.5281/zenodo.21874215"
     status: published
     file: papers/P14-usf-euclidean-qft.pdf
+    make_class: citeproc
+    make_langs: en
+    make_alias: osqft
+    nlm: P14-euclidean-qft
 
   - id: P15
     slug: usf-interacting-qft
@@ -129,6 +185,10 @@ canonical_papers:
     doi: "10.5281/zenodo.21874332"
     status: published
     file: papers/P15-usf-interacting-qft.pdf
+    make_class: citeproc
+    make_langs: en
+    make_alias: intqft
+    nlm: P15-interacting-qft
 
   - id: P16
     slug: geographic-somatic-field
@@ -136,6 +196,10 @@ canonical_papers:
     doi: "10.5281/zenodo.21874416"
     status: published
     file: papers/geographic-somatic-field.pdf
+    make_class: citeproc
+    make_langs: en
+    make_alias: geo
+    nlm: P16-geographic-field
 
   - id: P17
     slug: gestalt-field-dynamics
@@ -143,6 +207,10 @@ canonical_papers:
     doi: "10.5281/zenodo.21874504"
     status: published
     file: papers/gestalt-field-dynamics.pdf
+    make_class: citeproc
+    make_langs: en
+    make_alias: gestalt
+    nlm: P17-gestalt-dynamics
 
   - id: P18
     slug: preverbal-manifold
@@ -150,6 +218,10 @@ canonical_papers:
     doi: "10.5281/zenodo.21874565"
     status: published
     file: papers/preverbal-manifold.pdf
+    make_class: paper
+    make_langs: en
+    make_alias: preverbal
+    nlm: P18-preverbal-manifold
 
   - id: P19
     slug: swarm-propagator
@@ -157,6 +229,10 @@ canonical_papers:
     doi: "10.5281/zenodo.21874623"
     status: published
     file: papers/swarm-propagator.pdf
+    make_class: citeproc
+    make_langs: en
+    make_alias: swarm
+    nlm: P19-swarm-propagator
 
   - id: P20
     slug: universal-somatic-field
@@ -164,6 +240,10 @@ canonical_papers:
     doi: "10.5281/zenodo.21874684"
     status: published
     file: papers/universal-somatic-field.pdf
+    make_class: citeproc
+    make_langs: en
+    make_alias: usf
+    nlm: P20-universal-somatic-field
 
   - id: P21
     slug: cosmological-constant-derivation
@@ -172,6 +252,10 @@ canonical_papers:
     status: pending-review
     notes: "PDF exists; content needs review before Zenodo upload"
     file: papers/cosmological-constant-derivation.pdf
+    make_class: citeproc
+    make_langs: en
+    make_alias: cosconst
+    nlm: P21-cosmological-constant
 
   - id: P22
     slug: dark-matter-spatial-vacuum
@@ -179,6 +263,10 @@ canonical_papers:
     doi: null
     status: pending-upload
     file: papers/dark-matter-spatial-vacuum.pdf
+    make_class: citeproc
+    make_langs: en
+    make_alias: darkmatter
+    nlm: P22-dark-matter-spatial-vacuum
 
   - id: P23
     slug: ttheory-phenomena
@@ -186,6 +274,10 @@ canonical_papers:
     doi: null
     status: pending-upload
     file: papers/ttheory-phenomena.pdf
+    make_class: citeproc
+    make_langs: en
+    make_alias: phenomena
+    nlm: P23-ttheory-phenomena
 
   - id: P24
     slug: g2-symmetry-breaking
@@ -193,6 +285,10 @@ canonical_papers:
     doi: null
     status: pending-upload
     file: papers/g2-symmetry-breaking.pdf
+    make_class: citeproc
+    make_langs: en
+    make_alias: g2break
+    nlm: P24-g2-symmetry-breaking
 
 datasets:
 
@@ -201,6 +297,7 @@ datasets:
     title: "SFT Applied: A Worked Clinical Example"
     doi: "10.5281/zenodo.20459825"
     status: published
+    build: manual
     file: papers/SFT-DEMO-CASE.pdf
 
   - id: D2
@@ -209,6 +306,8 @@ datasets:
     doi: "10.5281/zenodo.20437858"
     status: published
     file: papers/lean-proofs-appendix.pdf
+    make_class: ~
+    nlm: 05-lean-proofs-appendix
 
 collections:
 
@@ -218,6 +317,8 @@ collections:
     doi: "10.5281/zenodo.20460771"
     status: published
     file: papers/omnibus-a4.pdf
+    file_royal: papers/omnibus-royal.pdf
+    build: paper
     lulu_spine_title: "Soma-Field Collected Works"
     lulu_spine_author: "Alistair Johnson"
 
@@ -228,8 +329,18 @@ collections:
     status: needs-new-version
     notes: "Rebuilt with updated P11; upload new version"
     file: papers/omnibus-a4.pdf
+    file_royal: papers/omnibus-royal.pdf
+    build: paper
+    nlm_min: 01-omnibus-v2
+    nlm: 01-omnibus-v2
+    lulu: 01-omnibus-v2
+    zenodo_file: zenodo/C1v2-omnibus.pdf
     lulu_spine_title: "Soma-Field Collected Works v2"
     lulu_spine_author: "Alistair Johnson"
+    lulu_linen: Black
+    lulu_foil: Gold
+    lulu_title: "The Soma-Field: Collected Works — Second Edition"
+    lulu_category: "Science & Medicine"
 
   - id: C2
     slug: ttheory-fractal-programme
@@ -237,6 +348,348 @@ collections:
     doi: "10.5281/zenodo.21873722"
     status: needs-new-version
     notes: "Rebuilt with TOC + updated P12 content; upload new version"
-    file: zenodo/C2-ttheory-fractal-programme.pdf
-    lulu_spine_title: "[T]-Theory: The Fractal Programme"
+    file: papers/ttheory-omnibus.pdf
+    zenodo_file: zenodo/C2-ttheory-fractal-programme.pdf
+    build: fractal
+    nlm_min: 02-ttheory-fractal-programme
+    nlm: 02-fractal-programme
+    lulu_spine_title: "[T]-Theory Fractal"
     lulu_spine_author: "Alistair Johnson"
+    lulu_linen: Black
+    lulu_foil: Gold
+    lulu_title: "[T]-Theory: The Complete Fractal Programme"
+    lulu_category: "Science & Medicine"
+
+  - id: C2-vol1
+    slug: ttheory-vol1
+    title: "[T]-Theory Vol 1: Foundation"
+    doi: ~
+    status: pending-upload
+    file: papers/ttheory-vol1.pdf
+    build: fractal
+    nlm: 03-fractal-vol1-foundation
+    lulu: 03-ttheory-vol1-foundation
+    lulu_spine_title: "[T] Vol 1 Foundation"
+    lulu_spine_author: "Alistair Johnson"
+    lulu_linen: Black
+    lulu_foil: Gold
+    lulu_title: "[T]-Theory Vol 1: Foundation"
+    lulu_category: "Science & Medicine"
+
+  - id: C2-vol2
+    slug: ttheory-vol2
+    title: "[T]-Theory Vol 2: Application"
+    doi: ~
+    status: pending-upload
+    file: papers/ttheory-vol2.pdf
+    build: fractal
+    nlm: 04-fractal-vol2-application
+    lulu: 04-ttheory-vol2-application
+    lulu_spine_title: "[T] Vol 2 Application"
+    lulu_spine_author: "Alistair Johnson"
+    lulu_linen: Black
+    lulu_foil: Gold
+    lulu_title: "[T]-Theory Vol 2: Application"
+    lulu_category: "Science & Medicine"
+
+  - id: CS1
+    slug: ttheory-cheatsheet
+    title: "[T]-Theory Cheatsheet"
+    doi: ~
+    status: published
+    file: papers/ttheory-cheatsheet.pdf
+    build: paper
+    make_class: citeproc
+    make_langs: en
+    make_alias: cheatsheet
+    nlm: cheatsheet
+    stuff: ttheory-cheatsheet.pdf
+
+# ── Fractal Programme: 15 domain books ──────────────────────────────────────
+
+  - id: C2-book-01
+    slug: ttheory-book-gateway
+    title: "[T]-Theory: The Programme — Gateway to the Universal Somatic Field"
+    doi: ~
+    status: pending-upload
+    file: papers/book-gateway.pdf
+    build: fractal
+    lulu: ttheory-book-gateway
+    lulu_spine_title: "[T] 1 The Programme"
+    lulu_spine_author: "Alistair Johnson"
+    lulu_linen: Red
+    lulu_foil: Gold
+    lulu_title: "The Blue Book"
+    lulu_category: "Science & Medicine"
+    green_id: "The Universal Propagator — G(x,x’) at the Hubble scale"
+    block_identity: "Formal Gateway"
+    block_colour: Red
+    spine_code: GATEWAY
+    book_number: 1
+    audience: "The Generalist"
+    slug: ttheory-book-physics
+    title: "[T]-Theory: Physics — Wave Propagation and the Green's Function"
+    doi: ~
+    status: pending-upload
+    file: papers/book-physics.pdf
+    build: fractal
+    lulu: ttheory-book-physics
+    lulu_spine_title: "[T] 2 Physics"
+    lulu_spine_author: "Alistair Johnson"
+    lulu_linen: Black
+    lulu_foil: Gold
+    lulu_title: "[T]-Theory: Physics"
+    lulu_category: "Science & Medicine"
+    green_id: "The Master Green’s Function — (∇²+k²)G=δ in relativistic field theory"
+    block_identity: "Formal Foundation"
+    block_colour: Black
+    spine_code: PHYSICS
+    book_number: 2
+    audience: "Astrophysicist"
+    slug: ttheory-book-neuroscience
+    title: "[T]-Theory: Neuroscience — The Somatic Field in Neural Systems"
+    doi: ~
+    status: pending-upload
+    file: papers/book-neuroscience.pdf
+    build: fractal
+    lulu: ttheory-book-neuroscience
+    lulu_spine_title: "[T] 5 Neuroscience"
+    lulu_spine_author: "Alistair Johnson"
+    lulu_linen: Black
+    lulu_foil: Gold
+    lulu_title: "[T]-Theory: Neuroscience"
+    lulu_category: "Science & Medicine"
+    green_id: "The Cortical EMF Propagator — macroscopic field from synchronised neural firing"
+    block_identity: "Conscious Hardware"
+    block_colour: Green
+    spine_code: NEURO
+    book_number: 5
+    audience: "Neuroscientist"
+    slug: ttheory-book-clinical-psychology
+    title: "[T]-Theory: Psychology — Clinical Applications of the Soma-Field"
+    doi: ~
+    status: pending-upload
+    file: papers/book-clinical-psychology.pdf
+    build: fractal
+    lulu: ttheory-book-clinical-psychology
+    lulu_spine_title: "[T] 9 Psychology"
+    lulu_spine_author: "Alistair Johnson"
+    lulu_linen: Black
+    lulu_foil: Gold
+    lulu_title: "[T]-Theory: Psychology"
+    lulu_category: "Science & Medicine"
+    green_id: "Trauma-Well Resolution — escape probability from a somatic attractor basin"
+    block_identity: "Clinical Soma"
+    block_colour: Tan
+    spine_code: TRAUMA
+    book_number: 9
+    audience: "Clinical Therapist"
+    slug: ttheory-book-computer-science
+    title: "[T]-Theory: Computing — Computational Models of Field Propagation"
+    doi: ~
+    status: pending-upload
+    file: papers/book-computer-science.pdf
+    build: fractal
+    lulu: ttheory-book-computer-science
+    lulu_spine_title: "[T] 7 Computing"
+    lulu_spine_author: "Alistair Johnson"
+    lulu_linen: Black
+    lulu_foil: Gold
+    lulu_title: "[T]-Theory: Computing"
+    lulu_category: "Science & Medicine"
+    green_id: "Affective State Propagator — computational kernel for agent field dynamics"
+    block_identity: "Conscious Hardware"
+    block_colour: Green
+    spine_code: CS
+    book_number: 7
+    audience: "Lean 4 Engineer"
+    slug: ttheory-book-formal-mathematics
+    title: "[T]-Theory: Mathematics — Formal Foundations of the Universal Somatic Field"
+    doi: ~
+    status: pending-upload
+    file: papers/book-formal-mathematics.pdf
+    build: fractal
+    lulu: ttheory-book-formal-mathematics
+    lulu_spine_title: "[T] 4 Mathematics"
+    lulu_spine_author: "Alistair Johnson"
+    lulu_linen: Black
+    lulu_foil: Gold
+    lulu_title: "[T]-Theory: Mathematics"
+    lulu_category: "Science & Medicine"
+    green_id: "Functorial Green’s Function — category-theoretic propagator between field spaces"
+    block_identity: "Formal Foundation"
+    block_colour: Black
+    spine_code: MATH
+    book_number: 4
+    audience: "Type Theorist"
+    slug: ttheory-book-consciousness
+    title: "[T]-Theory: Consciousness — The Soma-Field as a Theory of Mind"
+    doi: ~
+    status: pending-upload
+    file: papers/book-consciousness.pdf
+    build: fractal
+    lulu: ttheory-book-consciousness
+    lulu_spine_title: "[T] 6 Consciousness"
+    lulu_spine_author: "Alistair Johnson"
+    lulu_linen: Black
+    lulu_foil: Gold
+    lulu_title: "[T]-Theory: Consciousness"
+    lulu_category: "Science & Medicine"
+    green_id: "Conscious Percept Propagator Pole — singularity at phase transition threshold Tᴄ"
+    block_identity: "Conscious Hardware"
+    block_colour: Green
+    spine_code: MIND
+    book_number: 6
+    audience: "Philosopher"
+    slug: ttheory-book-complex-systems
+    title: "[T]-Theory: Complex Systems — Emergence and the Soma-Field"
+    doi: ~
+    status: pending-upload
+    file: papers/book-complex-systems.pdf
+    build: fractal
+    lulu: ttheory-book-complex-systems
+    lulu_spine_title: "[T] 3 Complex Systems"
+    lulu_spine_author: "Alistair Johnson"
+    lulu_linen: Black
+    lulu_foil: Gold
+    lulu_title: "[T]-Theory: Complex Systems"
+    lulu_category: "Science & Medicine"
+    green_id: "Scale-Invariant Propagator — G invariant under renormalisation group flow"
+    block_identity: "Formal Foundation"
+    block_colour: Black
+    spine_code: COMPLEX
+    book_number: 3
+    audience: "Network Researcher"
+    slug: ttheory-book-music-arts
+    title: "[T]-Theory: Music & Arts — Affect Dynamics and Creative Expression"
+    doi: ~
+    status: pending-upload
+    file: papers/book-music-arts.pdf
+    build: fractal
+    lulu: ttheory-book-music-arts
+    lulu_spine_title: "[T] 8 Music & Arts"
+    lulu_spine_author: "Alistair Johnson"
+    lulu_linen: Black
+    lulu_foil: Gold
+    lulu_title: "[T]-Theory: Music & Arts"
+    lulu_category: "Science & Medicine"
+    green_id: "Aesthetic Field Perturbation — BRECVEMA impulse response to musical stimulus"
+    block_identity: "Clinical Soma"
+    block_colour: Tan
+    spine_code: MUSIC
+    book_number: 8
+    audience: "The Musicologist"
+    slug: ttheory-book-geophysics
+    title: "[T]-Theory: Geophysics — Scale-Invariant Wave Propagation in Earth Systems"
+    doi: ~
+    status: pending-upload
+    file: papers/book-geophysics.pdf
+    build: fractal
+    lulu: ttheory-book-geophysics
+    lulu_spine_title: "[T] 12 Geophysics"
+    lulu_spine_author: "Alistair Johnson"
+    lulu_linen: Black
+    lulu_foil: Gold
+    lulu_title: "[T]-Theory: Geophysics"
+    lulu_category: "Science & Medicine"
+    green_id: "Seismic Memory Propagator — elastic Green’s function for crustal wave propagation"
+    block_identity: "Collective Field"
+    block_colour: Navy
+    spine_code: GEO
+    book_number: 12
+    audience: "The Seismologist"
+    slug: ttheory-book-social-science
+    title: "[T]-Theory: Social Science — Collective Field Dynamics and Co-regulation"
+    doi: ~
+    status: pending-upload
+    file: papers/book-social-science.pdf
+    build: fractal
+    lulu: ttheory-book-social-science
+    lulu_spine_title: "[T] 11 Social Science"
+    lulu_spine_author: "Alistair Johnson"
+    lulu_linen: Black
+    lulu_foil: Gold
+    lulu_title: "[T]-Theory: Social Science"
+    lulu_category: "Science & Medicine"
+    green_id: "The Rapport Propagator — social interaction kernel for coordination and contagion waves"
+    block_identity: "Collective Field"
+    block_colour: Navy
+    spine_code: SOC
+    book_number: 11
+    audience: "The Sociologist"
+    slug: ttheory-book-economics
+    title: "[T]-Theory: Economics — Economic Systems as Somatic Fields"
+    doi: ~
+    status: pending-upload
+    file: papers/book-economics.pdf
+    build: fractal
+    lulu: ttheory-book-economics
+    lulu_spine_title: "[T] 15 Economics"
+    lulu_spine_author: "Alistair Johnson"
+    lulu_linen: Black
+    lulu_foil: Gold
+    lulu_title: "[T]-Theory: Economics"
+    lulu_category: "Science & Medicine"
+    green_id: "The Nash Attractor Resolvent — (H-λ)⁻¹ determining market equilibrium"
+    block_identity: "Capstone"
+    block_colour: Red
+    spine_code: ECON
+    book_number: 15
+    audience: "The Economist"
+    slug: ttheory-book-law
+    title: "[T]-Theory: Law — Legal Systems and Field Theory"
+    doi: ~
+    status: pending-upload
+    file: papers/book-law.pdf
+    build: fractal
+    lulu: ttheory-book-law
+    lulu_spine_title: "[T] 13 Law"
+    lulu_spine_author: "Alistair Johnson"
+    lulu_linen: Black
+    lulu_foil: Gold
+    lulu_title: "[T]-Theory: Law"
+    lulu_category: "Science & Medicine"
+    green_id: "The Rights Invariant — topological propagator for legal precedent and norm diffusion"
+    block_identity: "Capstone"
+    block_colour: Red
+    spine_code: LAW
+    book_number: 13
+    audience: "Legal Scholar"
+    slug: ttheory-book-ppe
+    title: "[T]-Theory: PPE — Philosophy, Politics and Economics"
+    doi: ~
+    status: pending-upload
+    file: papers/book-ppe.pdf
+    build: fractal
+    lulu: ttheory-book-ppe
+    lulu_spine_title: "[T] 14 PPE"
+    lulu_spine_author: "Alistair Johnson"
+    lulu_linen: Black
+    lulu_foil: Gold
+    lulu_title: "[T]-Theory: PPE"
+    lulu_category: "Science & Medicine"
+    green_id: "The Mandate Consensus Propagator — collective decision kernel in democratic field theory"
+    block_identity: "Capstone"
+    block_colour: Red
+    spine_code: PPE
+    book_number: 14
+    audience: "PPE Scholar"
+    slug: ttheory-book-psychiatry-asd
+    title: "[T]-Theory: Psychiatry — Autism, ADHD, and the Soma-Field"
+    doi: ~
+    status: pending-upload
+    file: papers/book-psychiatry-asd.pdf
+    build: fractal
+    lulu: ttheory-book-psychiatry-asd
+    lulu_spine_title: "[T] 10 Psychiatry"
+    lulu_spine_author: "Alistair Johnson"
+    lulu_linen: Black
+    lulu_foil: Gold
+    lulu_title: "[T]-Theory: Psychiatry"
+    lulu_category: "Science & Medicine"
+    green_id: "Clinical Operator Propagator — resolvent of the Hopfield Hamiltonian in the clinical regime"
+    block_identity: "Clinical Soma"
+    block_colour: Tan
+    spine_code: PSYCH
+    book_number: 10
+    audience: "The Psychiatrist"
