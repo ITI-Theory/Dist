@@ -297,8 +297,11 @@ datasets:
     title: "SFT Applied: A Worked Clinical Example"
     doi: "10.5281/zenodo.20459825"
     status: published
-    build: manual
+    build: paper
     file: papers/SFT-DEMO-CASE.pdf
+    make_class: citeproc
+    make_langs: en
+    make_alias: demo-case
 
   - id: D2
     slug: lean-proofs-appendix
@@ -307,6 +310,7 @@ datasets:
     status: published
     file: papers/lean-proofs-appendix.pdf
     make_class: ~
+    make_targets: [lean-appendix]
     nlm: 05-lean-proofs-appendix
 
 collections:
@@ -319,6 +323,7 @@ collections:
     file: papers/omnibus-a4.pdf
     file_royal: papers/omnibus-royal.pdf
     build: paper
+    make_targets: [omnibus-a4, omnibus-royal]
     lulu_spine_title: "Soma-Field Collected Works"
     lulu_spine_author: "Alistair Johnson"
 
@@ -331,6 +336,7 @@ collections:
     file: papers/omnibus-a4.pdf
     file_royal: papers/omnibus-royal.pdf
     build: paper
+    make_targets: [omnibus-a4, omnibus-royal]
     nlm_min: 01-omnibus-v2
     nlm: 01-omnibus-v2
     lulu: 01-omnibus-v2
@@ -353,6 +359,7 @@ collections:
     zenodo_file: zenodo/C2-ttheory-fractal-programme.pdf
     nlm_uat: C2-fractal-thesis
     build: fractal
+    make_targets: [fractal-thesis]
     nlm_min: 02-ttheory-fractal-programme
     nlm: 02-fractal-programme
     lulu_spine_title: "[T]-Theory Fractal"
@@ -369,6 +376,7 @@ collections:
     status: pending-upload
     file: papers/ttheory-vol1.pdf
     build: fractal
+    make_targets: [vol1]
     nlm: 03-fractal-vol1-foundation
     lulu: 03-ttheory-vol1-foundation
     lulu_spine_title: "[T] Vol 1 Foundation"
@@ -385,6 +393,7 @@ collections:
     status: pending-upload
     file: papers/ttheory-vol2.pdf
     build: fractal
+    make_targets: [vol2]
     nlm: 04-fractal-vol2-application
     lulu: 04-ttheory-vol2-application
     lulu_spine_title: "[T] Vol 2 Application"
@@ -400,10 +409,8 @@ collections:
     doi: ~
     status: published
     file: papers/ttheory-cheatsheet.pdf
-    build: paper
-    make_class: citeproc
-    make_langs: en
-    make_alias: cheatsheet
+    build: fractal
+    bld_file: booklet-gateway.pdf
     nlm: cheatsheet
     stuff: ttheory-cheatsheet.pdf
 
@@ -429,6 +436,14 @@ collections:
     spine_code: GATEWAY
     book_number: 1
     audience: "The Generalist"
+    hud_scale: "Scale 20: cosmological horizon"
+    hud_equation: '$G(x,x\prime)$ propagates a disturbance from source to field point'
+    hud_operator: "Universal Green propagator"
+    hud_invariant: "One response grammar across physical, somatic, and collective scales"
+    hud_observable: "Cross-scale response and correlation structure"
+    hud_status: "Programme map; cross-domain identifications remain testable claims."
+
+  - id: C2-book-02
     slug: ttheory-book-physics
     title: "[T]-Theory: Physics — Wave Propagation and the Green's Function"
     doi: ~
@@ -448,6 +463,14 @@ collections:
     spine_code: PHYSICS
     book_number: 2
     audience: "Astrophysicist"
+    hud_scale: "Quantum to cosmological field scales"
+    hud_equation: '$(\nabla^2 + k^2)G = \delta$'
+    hud_operator: "Relativistic Green function"
+    hud_invariant: "Propagator form under changes of physical scale"
+    hud_observable: "Mode spectrum, correlation length, and cosmological density fractions"
+    hud_status: "Theoretical framework; cosmological predictions remain falsifiable."
+
+  - id: C2-book-05
     slug: ttheory-book-neuroscience
     title: "[T]-Theory: Neuroscience — The Somatic Field in Neural Systems"
     doi: ~
@@ -467,6 +490,14 @@ collections:
     spine_code: NEURO
     book_number: 5
     audience: "Neuroscientist"
+    hud_scale: "Neural tissue, cortical networks, and whole-brain coordination"
+    hud_equation: '$\ell = 1/k$'
+    hud_operator: "Cortical electromagnetic field propagator"
+    hud_invariant: "Synchronised local activity produces a shared macroscopic field"
+    hud_observable: "EEG coherence, phase locking, and correlation length"
+    hud_status: "Model framework; requires preregistered neurophysiological tests."
+
+  - id: C2-book-09
     slug: ttheory-book-clinical-psychology
     title: "[T]-Theory: Psychology — Clinical Applications of the Soma-Field"
     doi: ~
@@ -486,6 +517,14 @@ collections:
     spine_code: TRAUMA
     book_number: 9
     audience: "Clinical Therapist"
+    hud_scale: "Person, nervous system, and therapeutic time"
+    hud_equation: '$P_{\mathrm{escape}} \sim e^{-\Delta H/T}$'
+    hud_operator: "Trauma-well escape propagator"
+    hud_invariant: "The person is distinct from the attractor landscape they traverse"
+    hud_observable: "Recovery trajectory, basin depth, and intervention response"
+    hud_status: "Clinical interpretation; not a substitute for validated care."
+
+  - id: C2-book-07
     slug: ttheory-book-computer-science
     title: "[T]-Theory: Computing — Computational Models of Field Propagation"
     doi: ~
@@ -505,6 +544,14 @@ collections:
     spine_code: CS
     book_number: 7
     audience: "Lean 4 Engineer"
+    hud_scale: "Proof kernels, software agents, and multi-agent networks"
+    hud_equation: '$x_{t+1} = G x_t + J_t$'
+    hud_operator: "Verified affective-state transition kernel"
+    hud_invariant: "Typed proofs preserve declared field constraints"
+    hud_observable: "Kernel-checked theorems, runtime cost, and coordination accuracy"
+    hud_status: "Formal artefacts are checkable; empirical agent claims remain testable."
+
+  - id: C2-book-04
     slug: ttheory-book-formal-mathematics
     title: "[T]-Theory: Mathematics — Formal Foundations of the Universal Somatic Field"
     doi: ~
@@ -524,6 +571,14 @@ collections:
     spine_code: MATH
     book_number: 4
     audience: "Type Theorist"
+    hud_scale: "Field configurations and the 20-scale type hierarchy"
+    hud_equation: '$F : \mathcal{C}_{s} \to \mathcal{C}_{s+1}$'
+    hud_operator: "Functorial Green transformation"
+    hud_invariant: "Structure-preserving maps between scale-indexed field spaces"
+    hud_observable: "Lean proof dependencies and transition-map coherence"
+    hud_status: "Formal claims are kernel checked; physical interpretation remains open."
+
+  - id: C2-book-06
     slug: ttheory-book-consciousness
     title: "[T]-Theory: Consciousness — The Soma-Field as a Theory of Mind"
     doi: ~
@@ -543,6 +598,14 @@ collections:
     spine_code: MIND
     book_number: 6
     audience: "Philosopher"
+    hud_scale: "Integrated cortical and phenomenological field states"
+    hud_equation: '$\xi \to \infty$ at $T_c$'
+    hud_operator: "Conscious percept propagator pole"
+    hud_invariant: "Local processing becomes globally integrated at a critical threshold"
+    hud_observable: "Critical coherence, reportable integration, and perturbation response"
+    hud_status: "Interpretive theory; consciousness identification requires independent tests."
+
+  - id: C2-book-03
     slug: ttheory-book-complex-systems
     title: "[T]-Theory: Complex Systems — Emergence and the Soma-Field"
     doi: ~
@@ -562,6 +625,14 @@ collections:
     spine_code: COMPLEX
     book_number: 3
     audience: "Network Researcher"
+    hud_scale: "Networks from local interactions to collective criticality"
+    hud_equation: '$G_s \simeq G_{s+1}$ near a renormalisation fixed point'
+    hud_operator: "Scale-invariant propagator"
+    hud_invariant: "Response structure persists under coarse graining"
+    hud_observable: "Power laws, correlation lengths, and critical exponents"
+    hud_status: "Cross-domain scaling hypothesis; requires substrate-specific tests."
+
+  - id: C2-book-08
     slug: ttheory-book-music-arts
     title: "[T]-Theory: Music & Arts — Affect Dynamics and Creative Expression"
     doi: ~
@@ -581,6 +652,14 @@ collections:
     spine_code: MUSIC
     book_number: 8
     audience: "The Musicologist"
+    hud_scale: "Auditory stimulus, bodily response, memory, and affect"
+    hud_equation: '$\delta e(t) = G_{\mathrm{affect}} * s(t)$'
+    hud_operator: "BRECVEMA impulse-response propagator"
+    hud_invariant: "A stimulus couples through multiple affective pathways"
+    hud_observable: "Timing, bodily entrainment, self-report, and physiological response"
+    hud_status: "Interpretive framework; multi-operator replication remains pending."
+
+  - id: C2-book-12
     slug: ttheory-book-geophysics
     title: "[T]-Theory: Geophysics — Scale-Invariant Wave Propagation in Earth Systems"
     doi: ~
@@ -600,6 +679,14 @@ collections:
     spine_code: GEO
     book_number: 12
     audience: "The Seismologist"
+    hud_scale: "Faults, crustal wave paths, and planetary modes"
+    hud_equation: '$\mathcal{L}_{\mathrm{elastic}}G = \delta$'
+    hud_operator: "Elastic seismic Green function"
+    hud_invariant: "A source response is constrained by medium geometry and boundary conditions"
+    hud_observable: "Wave arrival times, normal modes, and event correlations"
+    hud_status: "Physical analogy with testable seismological consequences."
+
+  - id: C2-book-11
     slug: ttheory-book-social-science
     title: "[T]-Theory: Social Science — Collective Field Dynamics and Co-regulation"
     doi: ~
@@ -619,6 +706,14 @@ collections:
     spine_code: SOC
     book_number: 11
     audience: "The Sociologist"
+    hud_scale: "Persons, groups, institutions, and geographic populations"
+    hud_equation: '$C_{ij}(\tau) = \langle e_i(t)e_j(t+\tau) \rangle$'
+    hud_operator: "Rapport and contagion correlation kernel"
+    hud_invariant: "Collective coordination emerges from coupled individual fields"
+    hud_observable: "Synchrony, trust, diffusion rate, and network correlation"
+    hud_status: "Social model; agency and causal confounding require empirical study."
+
+  - id: C2-book-15
     slug: ttheory-book-economics
     title: "[T]-Theory: Economics — Economic Systems as Somatic Fields"
     doi: ~
@@ -638,6 +733,14 @@ collections:
     spine_code: ECON
     book_number: 15
     audience: "The Economist"
+    hud_scale: "Agents, markets, institutions, and macroeconomic regimes"
+    hud_equation: '$(H_{\mathrm{market}} - \lambda I)^{-1}$'
+    hud_operator: "Nash-attractor resolvent"
+    hud_invariant: "Stable equilibria correspond to persistent attractor basins"
+    hud_observable: "Leverage, liquidity, correlation, and transition thresholds"
+    hud_status: "Model framework; economic claims remain open to disconfirmation."
+
+  - id: C2-book-13
     slug: ttheory-book-law
     title: "[T]-Theory: Law — Legal Systems and Field Theory"
     doi: ~
@@ -657,6 +760,14 @@ collections:
     spine_code: LAW
     book_number: 13
     audience: "Legal Scholar"
+    hud_scale: "Regulatory scales 12-14: cities, nations, and legal jurisdictions"
+    hud_equation: "$\\dot e = -\\nabla H(e) + J_\\text{law}(t) + \\eta(t)$"
+    hud_operator: "Constraint operator on the legal attractor landscape"
+    hud_invariant: "$\\oint_\\gamma \\nabla R \\cdot dx = n \\in \\mathbb{Z}$"
+    hud_observable: "Spectral gap of the constraint operator"
+    hud_status: "Interpretive model; legal case-study validation pending."
+
+  - id: C2-book-14
     slug: ttheory-book-ppe
     title: "[T]-Theory: PPE — Philosophy, Politics and Economics"
     doi: ~
@@ -676,6 +787,14 @@ collections:
     spine_code: PPE
     book_number: 14
     audience: "PPE Scholar"
+    hud_scale: "Individual preference, institutions, markets, and collective mandate"
+    hud_equation: '$G_{\mathrm{mandate}}(t) = G_0 e^{-t/\tau_{\mathrm{mandate}}}$'
+    hud_operator: "Mandate-consensus propagator"
+    hud_invariant: "Collective decisions persist through a finite coordination timescale"
+    hud_observable: "Preference alignment, institutional trust, and mandate decay"
+    hud_status: "Synthetic framework; political and economic tests remain pending."
+
+  - id: C2-book-10
     slug: ttheory-book-psychiatry-asd
     title: "[T]-Theory: Psychiatry — Autism, ADHD, and the Soma-Field"
     doi: ~
@@ -695,3 +814,9 @@ collections:
     spine_code: PSYCH
     book_number: 10
     audience: "The Psychiatrist"
+    hud_scale: "Neurodevelopment, affective regulation, and clinical intervention"
+    hud_equation: '$(H_{\mathrm{clinical}} - \lambda I)^{-1}$'
+    hud_operator: "Clinical operator propagator"
+    hud_invariant: "Field modification is not reducible to personal deficit"
+    hud_observable: "Regulation, sensory response, attractor stability, and treatment outcome"
+    hud_status: "Clinical framework; diagnostic and therapeutic claims require validation."
