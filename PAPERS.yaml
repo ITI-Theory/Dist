@@ -125,7 +125,8 @@ canonical_papers:
   - id: P10
     slug: soma-temporal-dynamics
     title: "Temporal Dynamics of the Universal Somatic Field: Retarded Propagators, Transition Rates, and the Memory of Feeling"
-    doi: "10.5281/zenodo.21872785"
+    doi: "10.5281/zenodo.21872784"
+    zenodo_version_doi: "10.5281/zenodo.21872785"
     status: published
     file: papers/soma-temporal-dynamics.pdf
     make_class: citeproc
@@ -136,7 +137,8 @@ canonical_papers:
   - id: P11
     slug: zoomable-somatic-field
     title: "The Zoomable Universal Somatic Field: A Scale-Invariant Green's Function Architecture"
-    doi: "10.5281/zenodo.21873391"
+    doi: "10.5281/zenodo.21873390"
+    zenodo_version_doi: "10.5281/zenodo.21873391"
     status: needs-new-version
     notes: "Problems 1+2 now CLOSED; axiom table updated — upload new version"
     file: papers/zoomable-somatic-field.pdf
@@ -148,7 +150,8 @@ canonical_papers:
   - id: P12
     slug: experimental-validation
     title: "Experimental Benchmarks for the Universal Somatic Field Framework"
-    doi: "10.5281/zenodo.21873456"
+    doi: "10.5281/zenodo.21873455"
+    zenodo_version_doi: "10.5281/zenodo.21873456"
     status: needs-new-version
     notes: '"Open Problem 5" → "GAP-1 in USF test suite" — upload new version'
     file: papers/experimental-validation.pdf
@@ -160,7 +163,8 @@ canonical_papers:
   - id: P13
     slug: missing-limbic-layer
     title: "The Missing Limbic Layer: A Somatic Field Extension of Hopfield Networks via the Correspondence Principle"
-    doi: "10.5281/zenodo.21873646"
+    doi: "10.5281/zenodo.21873645"
+    zenodo_version_doi: "10.5281/zenodo.21873646"
     status: published
     file: papers/missing-limbic-layer.pdf
     make_class: citeproc
@@ -171,7 +175,8 @@ canonical_papers:
   - id: P14
     slug: usf-euclidean-qft
     title: "The Universal Somatic Field as a Euclidean Quantum Field Theory: Osterwalder–Schrader Axiom Verification via Lean 4"
-    doi: "10.5281/zenodo.21874215"
+    doi: "10.5281/zenodo.21874214"
+    zenodo_version_doi: "10.5281/zenodo.21874215"
     status: published
     file: papers/P14-usf-euclidean-qft.pdf
     make_class: citeproc
@@ -182,7 +187,8 @@ canonical_papers:
   - id: P15
     slug: usf-interacting-qft
     title: "Osterwalder–Schrader Axioms for the Interacting Universal Somatic Field: Reflection Positivity under Hopfield Coupling"
-    doi: "10.5281/zenodo.21874332"
+    doi: "10.5281/zenodo.21874331"
+    zenodo_version_doi: "10.5281/zenodo.21874332"
     status: published
     file: papers/P15-usf-interacting-qft.pdf
     make_class: citeproc
@@ -193,7 +199,8 @@ canonical_papers:
   - id: P16
     slug: geographic-somatic-field
     title: "The Geographic Somatic Field: Scale-Invariant Wave Propagation in Human Landscapes"
-    doi: "10.5281/zenodo.21874416"
+    doi: "10.5281/zenodo.21874415"
+    zenodo_version_doi: "10.5281/zenodo.21874416"
     status: published
     file: papers/geographic-somatic-field.pdf
     make_class: citeproc
@@ -204,7 +211,8 @@ canonical_papers:
   - id: P17
     slug: gestalt-field-dynamics
     title: "The Mathematical Foundations of Gestalt Field Dynamics: Formalising the Soma-Field via Russellian Neutral Monism"
-    doi: "10.5281/zenodo.21874504"
+    doi: "10.5281/zenodo.21874503"
+    zenodo_version_doi: "10.5281/zenodo.21874504"
     status: published
     file: papers/gestalt-field-dynamics.pdf
     make_class: citeproc
@@ -215,7 +223,8 @@ canonical_papers:
   - id: P18
     slug: preverbal-manifold
     title: "The Pre-Verbal Manifold: A Soma-Field Case Study of Acquired Neurodevelopmental Phenotypes"
-    doi: "10.5281/zenodo.21874565"
+    doi: "10.5281/zenodo.21874564"
+    zenodo_version_doi: "10.5281/zenodo.21874565"
     status: published
     file: papers/preverbal-manifold.pdf
     make_class: paper
@@ -226,7 +235,8 @@ canonical_papers:
   - id: P19
     slug: swarm-propagator
     title: "Single-Step Multi-Agent Coordination via Green's Function Propagators: A Macroscopic Brane Projection Framework"
-    doi: "10.5281/zenodo.21874623"
+    doi: "10.5281/zenodo.21874622"
+    zenodo_version_doi: "10.5281/zenodo.21874623"
     status: published
     file: papers/swarm-propagator.pdf
     make_class: citeproc
@@ -237,7 +247,8 @@ canonical_papers:
   - id: P20
     slug: universal-somatic-field
     title: "The Universal Somatic Field: Green's Functions as Scale-Invariant Oscillators across Eleven Orders of Magnitude"
-    doi: "10.5281/zenodo.21874684"
+    doi: "10.5281/zenodo.21874683"
+    zenodo_version_doi: "10.5281/zenodo.21874684"
     status: published
     file: papers/universal-somatic-field.pdf
     make_class: citeproc
@@ -292,6 +303,16 @@ canonical_papers:
 
 datasets:
 
+  - id: E1
+    slug: quant-exp-1
+    title: "QUANT-EXP-1: Quantum Annealing Reachability Experiment on an 8-Mode Soma-Field Hamiltonian"
+    doi: "10.5281/zenodo.20438007"
+    zenodo_version_doi: "10.5281/zenodo.20438008"
+    status: published
+    kind: experiment
+    build: manual
+    notes: "Published experiment artifact bundle; no single Dist PDF is managed for this record."
+
   - id: D1
     slug: SFT-DEMO-CASE
     title: "SFT Applied: A Worked Clinical Example"
@@ -330,7 +351,8 @@ collections:
   - id: C1v2
     slug: omnibus-v2
     title: "The Soma-Field: Collected Works — 2nd Edition (P1–P20, 2026)"
-    doi: "10.5281/zenodo.21873942"
+    doi: "10.5281/zenodo.20460771"
+    zenodo_version_doi: "10.5281/zenodo.21873942"
     status: needs-new-version
     notes: "Rebuilt with updated P11; upload new version"
     file: papers/omnibus-a4.pdf
@@ -352,7 +374,8 @@ collections:
   - id: C2
     slug: ttheory-fractal-programme
     title: "[T]-Theory: The Complete Fractal Programme — Fifteen Domain Books on the Universal Somatic Field"
-    doi: "10.5281/zenodo.21873722"
+    doi: "10.5281/zenodo.21873721"
+    zenodo_version_doi: "10.5281/zenodo.21873722"
     status: needs-new-version
     notes: "Rebuilt with TOC + updated P12 content; upload new version"
     file: papers/ttheory-omnibus.pdf

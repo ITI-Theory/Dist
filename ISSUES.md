@@ -36,8 +36,8 @@ history and the U research issue tracker.
 ## ISS-003: Registry and Public Mirrors - OPEN
 
 - [ ] Classify or remove untracked `PAPERS.md`; `PAPERS.yaml` remains the master registry
-- [ ] Resolve RC2 Zenodo audit: normalize 13 version DOIs to concept DOIs in `PAPERS.yaml`
-- [ ] Add or explicitly exclude the public QUANT-EXP-1 community record (`10.5281/zenodo.20438007`)
+- [x] Resolve RC2 Zenodo audit: normalize 13 version DOIs to concept DOIs in `PAPERS.yaml`
+- [x] Add the public QUANT-EXP-1 experiment record (`10.5281/zenodo.20438007`)
 - [ ] After each accepted Zenodo action, update DOI mirrors in U, `.github`, and `.github-private`
 - [ ] Keep `zenodo/README.md`, `nlm-min/README.md`, `nlm-max/README.md`, and `lulu/README.md` aligned with current file names and counts
 

@@ -2,6 +2,16 @@
 
 ---
 
+## DOI policy
+
+`PAPERS.yaml` stores the stable **concept DOI** in `doi`. It resolves to the
+latest public version and is the DOI used in public links and citations. The
+specific uploaded DOI is stored separately as `zenodo_version_doi` for release
+audit history. Creating a new version changes only `zenodo_version_doi`; it
+does not replace the concept DOI.
+
+---
+
 ## ⚠ frankenstein-p1 patch (2026-08-10) — 4 new versions to upload
 
 These 4 records were updated after the original Frankenstein release and need
