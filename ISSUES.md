@@ -17,8 +17,9 @@ history and the U research issue tracker.
 
 - [x] Build and stage Papers candidates in U: `make uat-stage-papers`
 - [x] NotebookLM UAT: paper omnibus plus changed formal records (accepted 2026-08-18; C-3 reader bridges deferred)
+- [x] Papers omnibus physical-format check: inside cover, master TOC, and recto paper dividers pass
+- [ ] Verify the refreshed accepted staging hash against `papers/` before promotion
 - [ ] Review P21 before first Zenodo upload
-- [ ] Verify accepted staged hashes against `papers/`
 - [ ] Execute Zenodo actions: P11, P12, D2, C1v2 new versions; P21-P24 new records
 - [ ] Record concept/version DOIs in `PAPERS.yaml`, `zenodo/README.md`, and public README mirrors
 
