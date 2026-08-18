@@ -1,82 +1,48 @@
-═══════════════════════════════════════════════════════════════
+# Dist Release Board
 
-[T]-Theory / Dist / Issues
+Canonical release sequencing is in `README.md`. This file is the short list
+of live decisions and external actions. Historical issue detail belongs in git
+history and the U research issue tracker.
 
-Format: top-level # sections = one issue. Status in name: OPEN or CLOSED.
-Closure line at bottom of issue: `> CLOSED: reason`.
-New issues appended at end. Link to GH issue if it grows: `→ GH#NNN`.
+## RC2 Baseline - 2026-08-16
 
-═══════════════════════════════════════════════════════════════
+- U: `v1.0.0-rc2` at `33b25c9`
+- Dist: `v1.0.0-rc2` at `e7d7f88`
+- D1 `SFT-DEMO-CASE.pdf` is present in `papers/`.
+- Automated UAT passed 12 checks at RC2; follow-up acceptance is track-specific.
 
-# ISS-001: Phase 1 wrap review — CLOSED
+## ISS-001: Papers Track Acceptance - OPEN
 
-**Validation framework (CM → HP → SH):**
+**Purpose:** accept the scientific paper release before any Zenodo action.
 
-- **Sherlock** — "Did we build it right?" Pre-release UAT: open a private NotebookLM (`nlm-uat`)
-  with Omnibus V2, Fractal Thesis, old files (for comparison), dot-files, reference docs.
-  Toggle files on/off as needed. Ephemeral — delete after use, always load fresh.
-  UAT process lives in U; Dist just needs the right files.
+- [x] Build and stage Papers candidates in U: `make uat-stage-papers`
+- [x] NotebookLM UAT: paper omnibus plus changed formal records (accepted 2026-08-18; C-3 reader bridges deferred)
+- [ ] Review P21 before first Zenodo upload
+- [ ] Verify accepted staged hashes against `papers/`
+- [ ] Execute Zenodo actions: P11, P12, D2, C1v2 new versions; P21-P24 new records
+- [ ] Record concept/version DOIs in `PAPERS.yaml`, `zenodo/README.md`, and public README mirrors
 
-- **Harry Potter** — "Did we build the right thing?" Re-use `nlm-uat`, different questions.
+## ISS-002: [T]-Theory Track Acceptance - OPEN
 
-- **Cookie Monster** — "Can anyone understand it?" The cheat-sheet is the Cookie Monster test.
-  Validate last. Enhancement idea: footnote on Zoom Operator table linking each level to its
-  supporting domain book in the Fractal Thesis.
+**Purpose:** finish Fractal Thesis/print acceptance independently of Papers.
 
-**Other points:**
-- P21–P24 are cosmological/physics-level — P23 (gateway) should emphasise this shift
-- Verify all files committed and saved before release
+- [ ] Complete the Gateway cheatsheet review, then apply the approved pattern to the remaining domain sheets
+- [ ] Build and stage [T]-Theory candidates in U: `make uat-stage-ttheory`
+- [ ] NotebookLM UAT: Fractal Thesis and Gateway cheatsheet
+- [ ] Lulu preview: Volumes I and II after NotebookLM acceptance
+- [ ] Verify accepted staged hashes against `papers/`, `nlm-*`, and `lulu/`
+- [ ] Create C2 Zenodo new version only after Fractal Thesis acceptance
 
-**Paper action list (from PAPERS.yaml):**
+## ISS-003: Registry and Public Mirrors - OPEN
 
-| ID | Slug | Action |
-|---|---|---|
-| P11 | zoomable-somatic-field | Zenodo → New version |
-| P12 | experimental-validation | Zenodo → New version |
-| C1v2 | omnibus-v2 | Zenodo → New version |
-| C2 | ttheory-fractal-programme | Zenodo → New version |
-| P21 | cosmological-constant-derivation | Review PDF, then upload |
-| P22 | dark-matter-spatial-vacuum | Upload new record |
-| P23 | ttheory-phenomena | Upload new record |
-| P24 | g2-symmetry-breaking | Upload new record |
+- [ ] Classify or remove untracked `PAPERS.md`; `PAPERS.yaml` remains the master registry
+- [ ] Resolve RC2 Zenodo audit: normalize 13 version DOIs to concept DOIs in `PAPERS.yaml`
+- [ ] Add or explicitly exclude the public QUANT-EXP-1 community record (`10.5281/zenodo.20438007`)
+- [ ] After each accepted Zenodo action, update DOI mirrors in U, `.github`, and `.github-private`
+- [ ] Keep `zenodo/README.md`, `nlm-min/README.md`, `nlm-max/README.md`, and `lulu/README.md` aligned with current file names and counts
 
-> CLOSED: action list captured above; Zenodo uploads and UAT tracked here until done.
-> CM→HP→SH framework documented in U/PROCESS.md UAT section (2026-08-13).
+## Closed Historical Items
 
-═══════════════════════════════════════════════════════════════
-
-# ISS-002: Phase 1 → Phase 2 directory structure — OPEN
-
-Phase 1 = MVP (prove it works). Phase 2 = use the theory and revise Phase 1 as we go.
-Dist is a clean room now. As Phase 2 produces revised papers, we need a convention.
-
-Options:
-- Same slugs / replace in place (Zenodo "New version" handles versions)
-- Phase-tagged directories (`papers/p1/`, `papers/p2/`)
-- PAPERS.yaml `phase: 1|2` field + replace in place
-
-Lean towards: replace in place + `phase:` field in PAPERS.yaml.
-
-═══════════════════════════════════════════════════════════════
-
-# ISS-003: PDF encoding — cosmological-constant cover page — OPEN
-
-Cover page shows broken angle brackets: `Λ ≡ ￿tr Φ￿₀` — should be `Λ ≡ ⟨tr Φ⟩₀`.
-Fix in source `.md` (font/encoding for `⟨ ⟩`), rebuild PDF, run `sync_dist.py --papers`.
-
-═══════════════════════════════════════════════════════════════
-
-# ISS-004: Lulu metadata — spine info needed in PAPERS.yaml — OPEN
-
-Lulu upload needs: spine title, spine author name.
-Options per volume: `Alistair Johnson`, `A. Johnson`, `[T]-Theory`.
-Add `lulu_spine_title` and `lulu_spine_author` fields to PAPERS.yaml entries for lulu files.
-
-
-═══════════════════════════════════════════════════════════════
-
-# ISS-005: Dist metadata  for Dist dirs in PAPERS.yaml — OPEN
-
-The idea is that rather than have lists in `Dist/NLM-*,  Dist/Zenodo` et cetera we just have a tag
-in PAPERS.yaml.
-- [ ] Opinion needed before implementation as there may be some hidden issues that I messed.
+- PDF angle-bracket encoding was fixed in U and rebuilt before RC2.
+- Lulu spine metadata is stored in `PAPERS.yaml`.
+- Registry-driven distribution targets are implemented through `U/mk/dist.mk`.

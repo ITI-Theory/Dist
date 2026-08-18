@@ -14,17 +14,68 @@
 
 ## Release process
 
-**Order:** build → sync → Zenodo → Lulu → NLM → READMEs → commit.
+This is the canonical operational runbook. Commands run in `U`, but release
+decisions, accepted artifacts, registry metadata, and public distribution are
+owned here in `Dist`.
 
-1. **Build** — `cd U/paper && make all` (rebuilds all PDFs from source)
-2. **Sync** — run `python U/paper/scripts/sync_dist.py` (copies PDFs → `papers/`, `nlm-min/`, `nlm-max/`, `lulu/`, `stuff/`)
-3. **Zenodo** — follow `zenodo/README.md`:
-   - New records: upload PDF → fill form fields → Publish → record DOI
-   - Version patches: go to record → **New version** → upload → Publish
-4. **Lulu** — follow `lulu/README.md` if print content changed
-5. **NLM** — replace source PDFs per `nlm-min/README.md` and `nlm-max/README.md`
-6. **Fill DOIs** — update `zenodo/README.md` DOI table + `U/.github/copilot-instructions.md`
-7. **Commit & push** — `Dist`, `U`, `.github-private`, `.github`
+`PAPERS.yaml` is the master registry. In `U`, adopt it deliberately with
+`make generate`; do not maintain a second hand-written release list.
+
+### Release board
+
+There are two acceptance tracks. Do not mix their UAT decisions or their
+external actions.
+
+| Track | Principal candidate | Main UAT | External action |
+|---|---|---|---|
+| **Papers** | `omnibus-a4.pdf`, changed canonical papers, D1/D2 | Scientific consistency, source/claim review, NotebookLM | Zenodo new versions/new records |
+| **[T]-Theory** | Fractal Thesis, Volumes I/II, cheatsheet | Reader/cheatsheet review, NotebookLM, print review | Lulu; C2 Zenodo version only after thesis acceptance |
+
+### The release cycle
+
+Release is iterative, not a one-way software deployment. A content correction,
+metadata change, or Zenodo decision can require another candidate build and a
+repeat of the relevant UAT track. Keep the cycle narrow: repeat only the track
+and artifacts affected.
+
+1. **Reconcile external truth**: run `cd U && py bin/zenodo-audit --json uat/zenodo-community.json`.
+   Resolve any missing record, untracked community record, or version-versus-concept
+   DOI drift before choosing an external release action.
+2. **Select scope**: decide `papers` or `ttheory`; record the selected registry
+   records and intended Zenodo/Lulu action in `ISSUES.md`.
+3. **Build candidates in U**:
+   - `cd U && make generate`
+   - Papers: `make registry-papers && make uat-stage-papers`
+   - [T]-Theory: `make registry-fractal && make uat-stage-ttheory`
+4. **Automated gate**: run `cd U && make uat-check`. Resolve a failing check
+   or explicitly defer it before continuing.
+5. **NotebookLM UAT before print**: upload the selected PDFs from
+   `U/uat/staging/<track>/`. The generated `MANIFEST.md` records source paths
+   and SHA-256 hashes. Use a fresh private `nlm-uat` notebook; record outcomes
+   in `U/paper/UAT.md` and the active issue.
+6. **Lulu review for [T]-Theory only**: after NotebookLM acceptance, inspect
+   the staged Volumes I/II in Lulu's print preview. Do not use Lulu as the
+   first PDF test.
+7. **Promote accepted PDFs to Dist**: use the registry-generated targets from
+   U (`make papers`, `make nlm`, `make lulu`, or the selected copy rule). Then
+   verify paths and checksums against the UAT staging manifest.
+8. **Zenodo actions**: only for accepted formal records. Follow
+   [zenodo/README.md](zenodo/README.md) for new records or **New version**.
+   Record concept DOI, version DOI, and changed status in `PAPERS.yaml`.
+9. **Close the loop**: update public README/DOI mirrors, release log, and
+   issues; commit and tag U and Dist together. If an update changes a candidate,
+   return to step 3 for that track.
+
+### Current RC2 hand-off
+
+- U tag: `v1.0.0-rc2` (`33b25c9`)
+- Dist tag: `v1.0.0-rc2` (`e7d7f88`)
+- Papers next: accept the staged paper omnibus and changed formal records.
+- [T]-Theory next: finish cheatsheet/Sherlock review, then stage the Fractal
+  Thesis and print volumes for NotebookLM and Lulu review.
+
+Detailed local build and Zenodo form instructions live in `U/PROCESS.md` and
+`zenodo/README.md`; they do not override this sequence.
 
 ### NLM min vs max — update rules
 
