@@ -145,6 +145,7 @@ canonical_papers:
     make_class: citeproc
     make_langs: en
     make_alias: zsf
+    references_minimum: 5
     nlm: P11-zoomable-field
 
   - id: P12
@@ -158,6 +159,7 @@ canonical_papers:
     make_class: citeproc
     make_langs: en
     make_alias: exp
+    references_minimum: 5
     nlm: P12-experimental-validation
 
   - id: P13
@@ -182,6 +184,7 @@ canonical_papers:
     make_class: citeproc
     make_langs: en
     make_alias: osqft
+    references_minimum: 5
     nlm: P14-euclidean-qft
 
   - id: P15
@@ -194,6 +197,7 @@ canonical_papers:
     make_class: citeproc
     make_langs: en
     make_alias: intqft
+    references_minimum: 5
     nlm: P15-interacting-qft
 
   - id: P16
@@ -266,6 +270,7 @@ canonical_papers:
     make_class: citeproc
     make_langs: en
     make_alias: cosconst
+    references_minimum: 5
     nlm: P21-cosmological-constant
 
   - id: P22
@@ -277,6 +282,7 @@ canonical_papers:
     make_class: citeproc
     make_langs: en
     make_alias: darkmatter
+    references_minimum: 5
     nlm: P22-dark-matter-spatial-vacuum
 
   - id: P23
@@ -288,6 +294,7 @@ canonical_papers:
     make_class: citeproc
     make_langs: en
     make_alias: phenomena
+    references_minimum: 5
     nlm: P23-ttheory-phenomena
 
   - id: P24
@@ -299,6 +306,7 @@ canonical_papers:
     make_class: citeproc
     make_langs: en
     make_alias: g2break
+    references_minimum: 5
     nlm: P24-g2-symmetry-breaking
 
 datasets:
@@ -332,6 +340,7 @@ datasets:
     file: papers/lean-proofs-appendix.pdf
     make_class: ~
     make_targets: [lean-appendix]
+    references: none
     nlm: 05-lean-proofs-appendix
 
 collections:
@@ -341,16 +350,22 @@ collections:
     title: "The Soma-Field: Collected Works — 1st Edition (P1–P9)"
     doi: "10.5281/zenodo.20460771"
     status: published
+    distribution: false
     file: papers/omnibus-a4.pdf
     file_royal: papers/omnibus-royal.pdf
     build: paper
-    make_targets: [omnibus-a4, omnibus-royal]
+    make_targets: [omnibus-a4]
     lulu_spine_title: "Soma-Field Collected Works"
     lulu_spine_author: "Alistair Johnson"
 
   - id: C1v2
     slug: omnibus-v2
-    title: "The Soma-Field: Collected Works — 2nd Edition (P1–P20, 2026)"
+    title: "The Soma-Field: Collected Works — Second Edition"
+    author: "Alistair Johnson"
+    orcid: "0009-0007-2194-0850"
+    institute: "Independent Researcher, Zurich, Switzerland"
+    date: "2026"
+    description: "Complete collected works of the Soma-Field and Universal Somatic Field research programme: from lay introduction to formal proofs, quantum experiment, clinical applications, AI extensions, the universal scale-invariant theory, and the [T]-Theory gateway."
     doi: "10.5281/zenodo.20460771"
     zenodo_version_doi: "10.5281/zenodo.21873942"
     status: needs-new-version
@@ -358,7 +373,10 @@ collections:
     file: papers/omnibus-a4.pdf
     file_royal: papers/omnibus-royal.pdf
     build: paper
-    make_targets: [omnibus-a4, omnibus-royal]
+    bld_file: omnibus-a4.pdf
+    bld_file_royal: omnibus-royal.pdf
+    make_targets: [omnibus-a4]
+    make_targets_royal: [omnibus-royal]
     nlm_min: 01-omnibus-v2
     nlm: 01-omnibus-v2
     lulu: 01-omnibus-v2
@@ -370,6 +388,41 @@ collections:
     lulu_foil: Gold
     lulu_title: "The Soma-Field: Collected Works — Second Edition"
     lulu_category: "Science & Medicine"
+    members:
+      - slug: soma-field-synthesis
+      - slug: soma-field-book
+        part: "Part I: The Body Knows"
+      - slug: the-tensor
+        part: "Interlude: The Tensor --- A Film in Fields"
+      - slug: soma-field-paper
+        part: "Part II: The Formal Apparatus"
+      - slug: mathematical-co-identification
+      - slug: quantum-soma-penrose
+      - slug: soma-physical-substrate
+      - slug: music-affect-dynamics
+      - slug: gestalt-field-dynamics
+      - slug: soma-field-patient-pov
+        part: "Part III: Clinical Demonstrations"
+      - slug: SFT-DEMO-CASE
+      - slug: preverbal-manifold
+      - slug: missing-limbic-layer
+        part: "Part IV: Extensions and Applications"
+      - slug: swarm-propagator
+      - slug: geographic-somatic-field
+      - slug: universal-somatic-field
+        part: "Part V: The Universal Theory"
+      - slug: zoomable-somatic-field
+      - slug: experimental-validation
+      - slug: cosmological-constant-derivation
+      - slug: dark-matter-spatial-vacuum
+      - slug: g2-symmetry-breaking
+      - slug: ttheory-phenomena
+        part: "Part VI: The Gateway"
+      - slug: soma-temporal-dynamics
+        part: "Appendix A: Temporal Dynamics"
+        appendix: true
+      - slug: lean-proofs-appendix
+        part: "Appendix B: Formal Lean 4 Verifications"
 
   - id: C2
     slug: ttheory-fractal-programme
@@ -382,6 +435,7 @@ collections:
     zenodo_file: zenodo/C2-ttheory-fractal-programme.pdf
     nlm_uat: C2-fractal-thesis
     build: fractal
+    bld_file: ttheory-omnibus.pdf
     make_targets: [fractal-thesis]
     nlm_min: 02-ttheory-fractal-programme
     nlm: 02-fractal-programme
