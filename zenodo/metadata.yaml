@@ -1,0 +1,373 @@
+# Zenodo upload metadata for the [T]-Theory / Universal Somatic Field release registry.
+# Keys match Dist/PAPERS.yaml ids. Titles and file paths are intentionally read
+# from PAPERS.yaml by bin/zenodo-publish; this file supplies only Zenodo metadata
+# that is not already in the registry. Public descriptions are deliberately
+# hardened to the 2026-10-01 release facts: no hardware/D-Wave claims for
+# QUANT-EXP-1, no file-level "0 sorries" claim for Lean, no claim that the
+# programme is derived from M-theory, and simulations are named as simulations.
+
+P1:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    A formal field-theoretic model of emotional dynamics in which limbic and somatic state are represented as a tensor-valued Hopfield-style attractor landscape. The paper proposes the Soma-Field Model as a theoretical and computational architecture for modelling emotional regulation, trauma-like attractors, and body-coupled dynamics; it is a research model rather than a clinical validation.
+  keywords: [Soma-Field, emotional dynamics, Hopfield network, trauma modelling, tensor field, attractor landscape, computational psychology]
+
+P2:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    A quantum-topological extension of the Soma-Field model motivated by Penrose's question about classical computation. The associated QUANT-EXP-1 result is described as an exact 8-qubit statevector simulation of a model Hopfield instance, not as D-Wave hardware, biological evidence, or a therapeutic claim.
+  keywords: [quantum simulation, Soma-Field, Penrose, Hopfield network, attractor barrier, statevector simulation, trauma model]
+
+P3:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    A methodology paper naming mathematical co-identification: the disciplined recognition that a mathematical object in one domain can sometimes be treated as the same object in another domain under explicitly stated assumptions. The paper frames theorem import as assumption-bound rather than proof by analogy.
+  keywords: [mathematical co-identification, methodology, philosophy of science, type matching, theorem import, structural analogy]
+
+P4:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    A programme synthesis connecting the Soma-Field papers, Lean proof files, computational simulations, instrument work, and interpretive applications. It presents the research programme, its method, and its computational tests while keeping proof status, simulation status, and clinical status explicit.
+  keywords: [Soma-Field, research programme, mathematical modelling, computational test, Lean 4, emotional dynamics]
+
+P5:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    A substrate-oriented paper asking what biological media could constrain a Soma-Field model in living tissue. It reviews biotensegrity, fascial-interstitial continuity, and biofield physiology as possible empirical constraints, while treating the Soma-Field as a theoretical and computational framework rather than a validated biological mechanism.
+  keywords: [biotensegrity, fascia, interoception, somatic field, biofield physiology, theoretical biology, trauma model]
+
+P6:
+  upload_type: publication
+  publication_type: book
+  description: >-
+    A lay-accessible introduction to the Soma-Field model of emotion, trauma, and embodied change. It presents the model in narrative form for general readers and practitioners, without claiming clinical efficacy or peer-reviewed validation.
+  keywords: [Soma-Field, trauma, embodied change, popular science, emotional dynamics, lived experience]
+
+P7:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    A patient-perspective and autoethnographic paper that situates the Soma-Field model inside lived experience. The account is offered as reflective research and model motivation, not as general clinical evidence or treatment guidance.
+  keywords: [patient perspective, autoethnography, Soma-Field, trauma studies, lived experience, emotional field]
+
+P8:
+  upload_type: publication
+  publication_type: other
+  description: >-
+    An abstract film definition that treats a film as a trajectory through an emotional field. The work specifies score-like structures, threshold events, and adaptive rendering concepts for affective media rather than reporting an empirical experiment.
+  keywords: [The Tensor, affective media, abstract film, emotional score, Soma-Field, generative art]
+
+P9:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    A dynamical model of music-induced affect that extends the valence-arousal circumplex into a field trajectory with attractors, forcing terms, and memory. The paper links BRECVEMA mechanisms to a Soma-Field-style model and proposes instrument and replication pathways; it does not claim completed multi-operator validation.
+  keywords: [music psychology, affect dynamics, BRECVEMA, Soma-Field, Langevin dynamics, emotional attractors]
+
+P10:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    A time-dependent formulation of the Universal Somatic Field using model retarded Green functions, relaxation times, transition-rate estimates, and a somatic memory kernel. Lean support is theorem-specific and assumption-bound rather than a proof of the whole physical theory.
+  keywords: [temporal dynamics, retarded Green function, somatic memory kernel, relaxation time, WKB, Universal Somatic Field]
+  related_identifiers:
+    - {identifier: "10.5281/zenodo.20460771", scheme: doi, relation: isPartOf, resource_type: publication}
+
+P11:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    A scale-invariant Green-function architecture for the Zoomable Universal Somatic Field across twenty scale levels. The work proposes a shared propagator form and type-level scale dial; cross-scale equivalence and physical interpretation remain modelling hypotheses with stated proof obligations.
+  keywords: [scale invariance, Green function, Universal Somatic Field, zoom operator, Hopfield, Lean 4, CEMI]
+  related_identifiers:
+    - {identifier: "10.5281/zenodo.20460771", scheme: doi, relation: isPartOf, resource_type: publication}
+
+P12:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    Benchmark designs and scaffolds for selected Universal Somatic Field model behaviours, including Hopfield comparisons, corrupted-character tests, synchronisation analogies, hysteresis, and a software analogue of QUANT-EXP-1. The benchmarks inspect consequences of formal assumptions and do not validate physical or clinical claims.
+  keywords: [Hopfield network, benchmark scaffolds, MNIST, Kuramoto, GHZ, hysteresis, phase transition, Lean 4]
+  related_identifiers:
+    - {identifier: "10.5281/zenodo.20460771", scheme: doi, relation: isPartOf, resource_type: publication}
+
+P13:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    The Field-Modulated Hopfield Network (FM-HN), a model architecture in which a somatic field modulates inverse temperature and weights at runtime. The paper proves a correspondence limit in the model and proposes ADHD-, ASC-, and C-PTSD-like operator regimes as hypotheses, not diagnostic claims.
+  keywords: [Hopfield network, limbic field, CEMI, FM-HN, correspondence principle, somatic field, Lean 4]
+  related_identifiers:
+    - {identifier: "10.5281/zenodo.20460771", scheme: doi, relation: isPartOf, resource_type: publication}
+
+P14:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    A free-Gaussian Universal Somatic Field model is identified with the massive Gaussian Free Field under a stated m ↔ k assumption, allowing imported OSforGFF Lean theorem applications for the Osterwalder-Schrader axioms. The record states that wider project proof status is theorem-specific, includes axioms, and includes seven real sorries elsewhere.
+  keywords: [Osterwalder-Schrader axioms, Euclidean QFT, Gaussian Free Field, reflection positivity, Lean 4, constructive QFT]
+  related_identifiers:
+    - {identifier: "10.5281/zenodo.20460771", scheme: doi, relation: isPartOf, resource_type: publication}
+
+P15:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    A research-programme paper identifying proof obligations for Osterwalder-Schrader axioms in the interacting, Hopfield-coupled Universal Somatic Field. It gives provisional reductions for limited cases and explicitly leaves ultraviolet regularisation, thermodynamic limits, and multi-component control as open work.
+  keywords: [interacting QFT, Hopfield coupling, reflection positivity, phi-4 theory, Glimm-Jaffe, constructive QFT, proof programme]
+  related_identifiers:
+    - {identifier: "10.5281/zenodo.20460771", scheme: doi, relation: isPartOf, resource_type: publication}
+
+P16:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    A modelling exercise applying a Green-function propagator form to geographic substrates. Worked examples include Estuary English, ring-necked parakeet murmurations, and the Klöntalersee basin; substrate equivalence is presented as a testable hypothesis rather than an established identity.
+  keywords: [geography, wave propagation, Green function, scale invariance, landscape, active matter, Universal Somatic Field]
+  related_identifiers:
+    - {identifier: "10.5281/zenodo.20460771", scheme: doi, relation: isPartOf, resource_type: publication}
+
+P17:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    An interpretive bridge between Gestalt psychotherapy, Russellian neutral monism, type theory, and Soma-Field mathematics. The paper frames clinical field concepts as assumption-bound model comparisons rather than a closed proof of equivalence with quantum field theory.
+  keywords: [Gestalt, neutral monism, Russell, Soma-Field, type theory, clinical field, attractor]
+  related_identifiers:
+    - {identifier: "10.5281/zenodo.20460771", scheme: doi, relation: isPartOf, resource_type: publication}
+
+P18:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    A single longitudinal N=1 case study proposing the pre-verbal manifold as a formal object for early-life neurodevelopmental trajectories. The paper explicitly treats autism, ADHD, attachment, and complex PTSD categories as possible projections under study, not as claims reducible to trauma.
+  keywords: [pre-verbal trauma, neurodevelopment, N=1 case study, developmental manifold, complex PTSD, autism, ADHD]
+  related_identifiers:
+    - {identifier: "10.5281/zenodo.20460771", scheme: doi, relation: isPartOf, resource_type: publication}
+
+P19:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    An idealised field-theoretic reformulation of multi-agent coordination in which a Green-function propagator matrix replaces iterative message passing when the propagator and source state are available. The Lean result is an arithmetic complexity comparison under stated premises, not an empirical swarm validation.
+  keywords: [multi-agent systems, swarm coordination, Green function, propagator, brane projection, complexity comparison, Lean 4]
+  related_identifiers:
+    - {identifier: "10.5281/zenodo.20460771", scheme: doi, relation: isPartOf, resource_type: publication}
+
+P20:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    A scale-invariant Universal Somatic Field architecture in which Green functions are treated as impulse responses across twenty scale levels. The 11-dimensional decomposition is presented as structurally analogous to M-theory compactification under modelling assumptions, not as a derivation from M-theory.
+  keywords: [Universal Somatic Field, Green function, scale invariance, harmonic oscillator, 11-dimensional model, dimensional decomposition]
+  related_identifiers:
+    - {identifier: "10.5281/zenodo.20460771", scheme: doi, relation: isPartOf, resource_type: publication}
+
+P21:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    A speculative cosmology paper proposing a model expression for the cosmological constant as a vacuum amplitude of the Universal Somatic Field tensor. The numerical comparison to Planck 2018 is presented as model-derived and approximate, with open geometry and general-relativity formalisation requirements.
+  keywords: [cosmological constant, vacuum amplitude, Universal Somatic Field, compactification model, Planck 2018, dark energy]
+  related_identifiers:
+    - {identifier: "10.5281/zenodo.21873942", scheme: doi, relation: isPartOf, resource_type: publication}
+
+P22:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    A speculative cosmology paper identifying dark matter with the spatial block vacuum of the Universal Somatic Field under stated compactification assumptions. The Ω_DM = 3/11 comparison is a leading-order model comparison to Planck 2018, not an observed detection or established particle alternative.
+  keywords: [dark matter, spatial vacuum, Omega_DM, Universal Somatic Field, compactification model, Planck 2018, cosmology]
+  related_identifiers:
+    - {identifier: "10.5281/zenodo.21873942", scheme: doi, relation: isPartOf, resource_type: publication}
+
+P23:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    A programme paper proposing that [T]-Theory can be studied as a fixed point of its own subject matter: its cultural and digital propagation is modelled with the same kind of Green-function language used elsewhere in the programme. This is a programme hypothesis, not proof of substrate equivalence.
+  keywords: ["[T]-Theory", fixed point, cultural propagation, Universal Somatic Field, self-reference, Green function, research programme]
+  related_identifiers:
+    - {identifier: "10.5281/zenodo.21873942", scheme: doi, relation: isPartOf, resource_type: publication}
+
+P24:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    An algebraic paper decomposing the BRECVEMA coupling matrix into a G₂-symmetric component and a traceless symmetry-breaking term. It provides a quantitative compatibility result for a seven-dimensional compact-sector interpretation, while explicitly not proving a G₂-holonomy metric for X₇ or clinical efficacy.
+  keywords: [G2 symmetry, BRECVEMA, emotional tensor, symmetry breaking, coupling matrix, Universal Somatic Field, compact-sector interpretation]
+  related_identifiers:
+    - {identifier: "10.5281/zenodo.21873942", scheme: doi, relation: isPartOf, resource_type: publication}
+
+D1:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    A self-case analysis applying the Soma-Field framework to psychotherapy, somatic training, relational disruption, and subsequent scholarly integration. It is an interpretive demonstration of model vocabulary and explicitly not clinical advice or treatment validation.
+  keywords: [Soma-Field, self-case analysis, psychotherapy, somatic training, trauma model, interpretive demonstration]
+
+D2:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    An appendix reproducing and explaining the Lean 4 formal artefacts for the programme. Lean accepts named files and declarations under their definitions, axioms, imports, and explicit placeholders; the appendix documents axioms and seven real sorry stubs rather than claiming a file-level zero-sorry proof certificate.
+  keywords: [Lean 4, formal methods, proof assistant, Mathlib, Soma-Field, theorem proving, proof status]
+
+E1:
+  upload_type: dataset
+  description: >-
+    Dataset and artefact bundle for QUANT-EXP-1, an exact 8-qubit statevector simulation of a model Soma-Field Hamiltonian and attractor-barrier task. The record is a simulation artefact, not a hardware quantum-annealer run, biological validation, or therapy result.
+  keywords: [QUANT-EXP-1, statevector simulation, 8-qubit model, quantum annealing simulation, Hopfield Hamiltonian, reproducibility]
+
+C1v2:
+  upload_type: publication
+  publication_type: book
+  description: >-
+    Second edition of the Soma-Field collected works, compiling the canonical papers, demonstrations, and formal appendix into one volume. The collection preserves each component's stated status: theoretical modelling, theorem-specific Lean formalisation, and simulations rather than peer-reviewed or clinical validation.
+  keywords: [Soma-Field, collected works, Universal Somatic Field, Lean 4, emotional dynamics, computational modelling, research programme]
+  related_identifiers:
+    - {identifier: "10.5281/zenodo.20460771", scheme: doi, relation: isNewVersionOf, resource_type: publication}
+
+C2:
+  upload_type: publication
+  publication_type: book
+  description: >-
+    The complete [T]-Theory Fractal Programme: fifteen domain books applying the Universal Somatic Field vocabulary across physics, mathematics, neuroscience, philosophy, complex systems, computing, arts, geophysics, society, economics, law, PPE, clinical psychology, and psychiatry. The collection is a cross-domain research programme with explicit modelling assumptions, not a peer-reviewed validation.
+  keywords: ["[T]-Theory", Fractal Programme, Universal Somatic Field, cross-domain modelling, Green function, research programme]
+  related_identifiers:
+    - {identifier: "10.5281/zenodo.21873942", scheme: doi, relation: isCompiledFrom, resource_type: publication}
+
+C2-vol1:
+  upload_type: publication
+  publication_type: book
+  description: >-
+    Volume 1 of the [T]-Theory Fractal Programme, presenting the foundation-oriented domain books and their shared Universal Somatic Field vocabulary. It is a synthetic research-programme volume with assumptions and validation limits stated in the source texts.
+  keywords: ["[T]-Theory", Fractal Programme, foundation, Universal Somatic Field, cross-domain modelling, Green function]
+  related_identifiers:
+    - {identifier: "10.5281/zenodo.21873721", scheme: doi, relation: isPartOf, resource_type: publication}
+
+C2-vol2:
+  upload_type: publication
+  publication_type: book
+  description: >-
+    Volume 2 of the [T]-Theory Fractal Programme, presenting application-oriented domain books across society, law, economics, clinical psychology, psychiatry, geophysics, and related fields. It is a modelling and interpretation volume, not a peer-reviewed empirical validation.
+  keywords: ["[T]-Theory", Fractal Programme, applications, Universal Somatic Field, society, law, economics, clinical psychology]
+  related_identifiers:
+    - {identifier: "10.5281/zenodo.21873721", scheme: doi, relation: isPartOf, resource_type: publication}
+
+CS1:
+  upload_type: publication
+  publication_type: other
+  description: >-
+    A concise [T]-Theory cheatsheet for orientation to the programme's scale dial, operators, and recurring vocabulary. It is an educational summary rather than a primary research paper.
+  keywords: ["[T]-Theory", cheatsheet, Universal Somatic Field, scale dial, Green function, educational summary]
+
+C2-book-01:
+  upload_type: publication
+  publication_type: book
+  description: >-
+    Gateway introduction to the [T]-Theory Fractal Programme and the Universal Somatic Field. Written for generalists, it maps the programme's core vocabulary, scale structure, and modelling status without presenting the framework as peer-reviewed or clinically validated.
+  keywords: ["[T]-Theory", gateway, Universal Somatic Field, introduction, Fractal Programme, popular science]
+
+C2-book-02:
+  upload_type: publication
+  publication_type: book
+  description: >-
+    Physics volume of the [T]-Theory Fractal Programme, focused on wave propagation, Green functions, compactification analogies, and field equations. Physical claims are presented as theoretical models and falsifiable hypotheses rather than established derivations from M-theory.
+  keywords: ["[T]-Theory", physics, Green function, wave propagation, field equations, compactification model]
+
+C2-book-03:
+  upload_type: publication
+  publication_type: book
+  description: >-
+    Complex-systems volume of the [T]-Theory Fractal Programme, treating emergence, criticality, scale invariance, and network dynamics through the Universal Somatic Field vocabulary. Cross-domain scaling is framed as a hypothesis requiring substrate-specific tests.
+  keywords: ["[T]-Theory", complex systems, emergence, criticality, scale invariance, network dynamics]
+
+C2-book-04:
+  upload_type: publication
+  publication_type: book
+  description: >-
+    Mathematics volume of the [T]-Theory Fractal Programme, focused on type-level structure, formal foundations, and the geometry of feeling. Lean content is described with explicit proof-status limits: accepted declarations may depend on definitions, axioms, imports, and open placeholders.
+  keywords: ["[T]-Theory", mathematics, type theory, Lean 4, formal foundations, Universal Somatic Field]
+
+C2-book-05:
+  upload_type: publication
+  publication_type: book
+  description: >-
+    Neuroscience volume of the [T]-Theory Fractal Programme, modelling nervous-system coordination and cortical electromagnetic-field analogies through the Soma-Field vocabulary. It is a theoretical framework requiring preregistered neurophysiological testing.
+  keywords: ["[T]-Theory", neuroscience, cortical fields, somatic field, interoception, neurophysiology]
+
+C2-book-06:
+  upload_type: publication
+  publication_type: book
+  description: >-
+    Philosophy volume of the [T]-Theory Fractal Programme, treating consciousness, effect, and proof as problems in the Universal Somatic Field vocabulary. It presents interpretive and formal proposals, while consciousness identification remains an open empirical and philosophical question.
+  keywords: ["[T]-Theory", philosophy, consciousness, proof, effect, Universal Somatic Field, neutral monism]
+
+C2-book-07:
+  upload_type: publication
+  publication_type: book
+  description: >-
+    Computing volume of the [T]-Theory Fractal Programme, covering computational models of field propagation, proof kernels, and multi-agent coordination. Formal artefacts are checkable under their assumptions; empirical agent claims remain testable claims.
+  keywords: ["[T]-Theory", computing, field propagation, Lean 4, multi-agent systems, verified computing]
+
+C2-book-08:
+  upload_type: publication
+  publication_type: book
+  description: >-
+    Music and arts volume of the [T]-Theory Fractal Programme, modelling affect dynamics, creative expression, and BRECVEMA-style response pathways. The volume is an interpretive and modelling framework; multi-operator empirical replication remains pending.
+  keywords: ["[T]-Theory", music, arts, affect dynamics, BRECVEMA, creative expression]
+
+C2-book-09:
+  upload_type: publication
+  publication_type: book
+  description: >-
+    Clinical psychology volume of the [T]-Theory Fractal Programme, using the Soma-Field as a vocabulary for trauma topology, attractor basins, and therapeutic interpretation. It is not clinical advice and does not claim validated treatment efficacy.
+  keywords: ["[T]-Theory", clinical psychology, trauma, Soma-Field, attractor basin, therapeutic interpretation]
+
+C2-book-10:
+  upload_type: publication
+  publication_type: book
+  description: >-
+    Psychiatry and neurodivergence volume of the [T]-Theory Fractal Programme, applying model operator language to autism, ADHD, trauma, sensory regulation, and clinical interpretation. Diagnostic and therapeutic claims are presented as hypotheses requiring validation.
+  keywords: ["[T]-Theory", psychiatry, autism, ADHD, neurodivergence, trauma, clinical model]
+
+C2-book-11:
+  upload_type: publication
+  publication_type: book
+  description: >-
+    Social-science volume of the [T]-Theory Fractal Programme, modelling collective field dynamics, co-regulation, contagion, synchrony, and trust. It treats social propagation as a model subject to agency, confounding, and empirical testing.
+  keywords: ["[T]-Theory", social science, collective dynamics, co-regulation, synchrony, trust, contagion]
+
+C2-book-12:
+  upload_type: publication
+  publication_type: book
+  description: >-
+    Geophysics volume of the [T]-Theory Fractal Programme, using elastic and geographic Green-function analogies for Earth systems, wave propagation, and landscape memory. Physical analogies are stated with testable seismological and geophysical consequences.
+  keywords: ["[T]-Theory", geophysics, Green function, seismic waves, Earth systems, landscape memory]
+
+C2-book-13:
+  upload_type: publication
+  publication_type: book
+  description: >-
+    Law volume of the [T]-Theory Fractal Programme, modelling legal systems, precedent, rights, constraints, and norm diffusion through field-theoretic vocabulary. It is an interpretive legal model with case-study validation pending.
+  keywords: ["[T]-Theory", law, legal systems, precedent, norm diffusion, rights, field theory]
+
+C2-book-14:
+  upload_type: publication
+  publication_type: book
+  description: >-
+    PPE volume of the [T]-Theory Fractal Programme, connecting philosophy, politics, and economics through models of mandate, consensus, institutions, and collective decision dynamics. Political and economic claims remain hypotheses for empirical study.
+  keywords: ["[T]-Theory", PPE, philosophy, politics, economics, mandate, collective decision]
+
+C2-book-15:
+  upload_type: publication
+  publication_type: book
+  description: >-
+    Economics volume of the [T]-Theory Fractal Programme, modelling markets, equilibria, leverage, liquidity, and transition thresholds using attractor and resolvent language. The volume is a theoretical framework whose economic claims remain open to disconfirmation.
+  keywords: ["[T]-Theory", economics, markets, attractor, equilibrium, liquidity, criticality]

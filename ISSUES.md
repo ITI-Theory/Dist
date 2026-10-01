@@ -4,43 +4,44 @@ Canonical release sequencing is in `README.md`. This file is the short list
 of live decisions and external actions. Historical issue detail belongs in git
 history and the U research issue tracker.
 
-## RC2 Baseline - 2026-08-16
+## Current Baseline — 2026-10-01
 
-- U: `v1.0.0-rc2` at `33b25c9`
-- Dist: `v1.0.0-rc2` at `e7d7f88`
-- D1 `SFT-DEMO-CASE.pdf` is present in `papers/`.
-- Automated UAT passed 12 checks at RC2; follow-up acceptance is track-specific.
+- U candidates are built and staged, but UAT has not started.
+- Author decision: app/Atlas review first, then NotebookLM UAT, Lulu preview,
+  promotion, and Zenodo.
+- `PAPERS.yaml` remains the master registry; another agent is editing it.
 
-## ISS-001: Papers Track Acceptance - OPEN
+## ISS-001: Papers Track Acceptance — OPEN
 
 **Purpose:** accept the scientific paper release before any Zenodo action.
 
-- [x] Build and stage Papers candidates in U: `make uat-stage-papers`
-- [x] NotebookLM UAT: paper omnibus plus changed formal records (accepted 2026-08-18; C-3 reader bridges deferred)
-- [x] Papers omnibus physical-format check: inside cover, master TOC, and recto paper dividers pass
-- [ ] Verify the refreshed accepted staging hash against `papers/` before promotion
-- [ ] Review P21 before first Zenodo upload
-- [ ] Execute Zenodo actions: P11, P12, D2, C1v2 new versions; P21-P24 new records
-- [ ] Record concept/version DOIs in `PAPERS.yaml`, `zenodo/README.md`, and public README mirrors
+- [x] Build and stage Papers candidates in U: `U/uat/staging/papers/`
+- [x] Harden D1, D2, and P1–P24 for simulation/proof/clinical claim wording
+- [ ] Author review of P21 before first Zenodo upload
+- [ ] NotebookLM UAT: paper omnibus plus changed formal records
+- [ ] Verify accepted staging hashes against promoted `Dist` files
+- [ ] Scripted Zenodo upload: sandbox test, then live new versions/new records
+- [ ] Record concept/version DOIs in `PAPERS.yaml`, `zenodo/README.md`, and public mirrors
 
-## ISS-002: [T]-Theory Track Acceptance - OPEN
+## ISS-002: [T]-Theory Track Acceptance — OPEN
 
 **Purpose:** finish Fractal Thesis/print acceptance independently of Papers.
 
-- [ ] Complete the Gateway cheatsheet review, then apply the approved pattern to the remaining domain sheets
-- [ ] Build and stage [T]-Theory candidates in U: `make uat-stage-ttheory`
-- [ ] NotebookLM UAT: Fractal Thesis and Gateway cheatsheet
-- [ ] Lulu preview: Volumes I and II after NotebookLM acceptance
+- [x] Build and stage [T]-Theory candidates in U: `U/uat/staging/ttheory/`
+- [x] Rewrite all fifteen domain books with hardened evidence labels
+- [ ] NotebookLM UAT: Fractal Thesis, Vol I/II, and representative booklets
+- [ ] Lulu preview: paper omnibus, Vol I, and Vol II after NotebookLM acceptance
 - [ ] Verify accepted staged hashes against `papers/`, `nlm-*`, and `lulu/`
 - [ ] Create C2 Zenodo new version only after Fractal Thesis acceptance
 
-## ISS-003: Registry and Public Mirrors - OPEN
+## ISS-003: Registry and Public Mirrors — OPEN
 
-- [ ] Classify or remove untracked `PAPERS.md`; `PAPERS.yaml` remains the master registry
-- [x] Resolve RC2 Zenodo audit: normalize 13 version DOIs to concept DOIs in `PAPERS.yaml`
-- [x] Add the public QUANT-EXP-1 experiment record (`10.5281/zenodo.20438007`)
+- [x] Resolve RC2 Zenodo audit: normalise version DOI handling in `PAPERS.yaml`
+- [x] Add the public QUANT-EXP-1 simulation record (`10.5281/zenodo.20438007`)
+- [x] Harden Zenodo community text to paste
+- [ ] Finish `zenodo/metadata.yaml` and keep it aligned with `zenodo/README.md`
+- [ ] Promote accepted PDFs and verify SHA-256 hashes against UAT manifests
 - [ ] After each accepted Zenodo action, update DOI mirrors in U, `.github`, and `.github-private`
-- [ ] Keep `zenodo/README.md`, `nlm-min/README.md`, `nlm-max/README.md`, and `lulu/README.md` aligned with current file names and counts
 
 ## Closed Historical Items
 

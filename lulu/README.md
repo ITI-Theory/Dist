@@ -2,8 +2,13 @@
 
 Upload at **https://lulu.com** — A4, hardcover, standard colour.
 
-All Lulu-designated artifacts use the registry-owned `lulu_page_limit: 800`.
-The U release gate rejects an artifact above that limit before promotion.
+All Lulu-designated artefacts use the registry-owned `lulu_page_limit: 800`.
+The U release gate rejects an artefact above that limit before promotion.
+
+## Current candidates — 2026-10-01
+
+U has built the current candidates and staged them for review. Lulu preview has
+not started; by author decision, app/Atlas review and NotebookLM UAT come first.
 
 ## How to upload a new version
 
@@ -15,11 +20,21 @@ The U release gate rejects an artifact above that limit before promotion.
 
 ## Files
 
-| File | Contents | ~Pages | ~Cost |
-|---|---|---|---|
-| `01-omnibus-v2.pdf` | Canonical collected works V2 (P1–P15) | ~500 | ~€40 |
-| `03-ttheory-vol1-foundation.pdf` | [T]-Theory Vol I: Foundation (domains 1–8) | ~380 | ~€34 |
-| `04-ttheory-vol2-application.pdf` | [T]-Theory Vol II: Application (domains 9–15) | ~420 | ~€36 |
+| File | Contents | Pages | Status |
+|---|---|---:|---|
+| `01-omnibus-v2.pdf` | **The Soma-Field: Collected Works — Second Edition**; paper omnibus for P1–P24 plus datasets/appendix material carried by the collection | 427 | Preview after UAT |
+| `03-ttheory-vol1-foundation.pdf` | **[T]-Theory Vol I: Foundation**; foundation-side Fractal Programme volume | 680 | Preview after UAT |
+| `04-ttheory-vol2-application.pdf` | **[T]-Theory Vol II: Application**; application-side Fractal Programme volume | 655 | Preview after UAT |
+
+The full Fractal Thesis omnibus is 1,296 pages and is not a Lulu upload under
+the current 800-page gate.
+
+## Current book title family
+
+The fifteen standalone domain books now use the pattern **[T]-Theory: <Name>**
+with subtitles. Notable change: the former consciousness book is now
+**[T]-Theory: Philosophy — Consciousness, Effect, and Proof in the Fractal
+Programme**.
 
 ---
 
@@ -31,12 +46,14 @@ The U release gate rejects an artifact above that limit before promotion.
 
 ### Frankenstein — 2026-08-10
 
-All 3 files current. Vol I and Vol II include TOC.
+All 3 files current for that release. Vol I and Vol II include TOC.
+
+Correction note added 2026-10-01: page counts and titles above supersede the
+old P1–P15 and domain-title wording.
 
 ═══════════════════════════════════════════════════════════════
 
-### Phase 1 wrap — 2026-08-?? (next)
+### 2026-10-01 — Hardening and Fractal Thesis rewrite
 
-No print file changes expected for P21–P24 (cosmology papers, not fractal programme).
-Update omnibus-v2 if C1v2 is rebuilt to include P21+.
-
+Candidates rebuilt in U: paper omnibus 427 pages, Vol I 680 pages, Vol II
+655 pages. Awaiting NotebookLM UAT and Lulu preview before promotion.
