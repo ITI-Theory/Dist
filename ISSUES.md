@@ -9,7 +9,7 @@ history and the U research issue tracker.
 - U candidates are built and staged, but UAT has not started.
 - Author decision: app/Atlas review first, then NotebookLM UAT, Lulu preview,
   promotion, and Zenodo.
-- `PAPERS.yaml` remains the master registry; another agent is editing it.
+- `PAPERS.yaml` remains the master registry.
 
 ## ISS-001: Papers Track Acceptance — OPEN
 

@@ -19,15 +19,15 @@ does not replace the concept DOI.
 
 ## Scripted uploads
 
-Zenodo uploads will be done with `U/bin/zenodo-publish` (being written).
+Zenodo uploads are done with `U/bin/zenodo-publish` (run `plan` first; sandbox before live).
 
 - Use Zenodo sandbox first.
 - Dry-run is the default.
 - Live tokens are read from `ZENODO_TOKEN`; sandbox tokens from
   `ZENODO_SANDBOX_TOKEN`.
 - Tokens must stay in the environment and must never be committed.
-- Per-record metadata lives in `zenodo/metadata.yaml` (being created by another
-  agent); this README mirrors the public wording for review and paste checks.
+- Per-record metadata lives in `zenodo/metadata.yaml`; this README mirrors the
+  public wording for review and paste checks.
 
 ---
 

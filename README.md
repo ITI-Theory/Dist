@@ -79,8 +79,7 @@ and artefacts affected.
   first; then NotebookLM UAT, Lulu preview, promotion to Dist, and Zenodo.
 - Zenodo publication should use the scripted path: sandbox first, dry-run by
   default, live only after UAT acceptance and author approval.
-- `PAPERS.yaml` is not changed by this hand-off while another agent is editing
-  it; use it only as the registry source for IDs, files, and DOI state.
+- `PAPERS.yaml` is the registry source for IDs, files, titles, levels, and DOI state.
 
 Detailed local build and Zenodo form instructions live in `U/PROCESS.md` and
 `zenodo/README.md`; they do not override this sequence.
