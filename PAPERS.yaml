@@ -380,6 +380,7 @@ collections:
     nlm_min: 01-omnibus-v2
     nlm: 01-omnibus-v2
     lulu: 01-omnibus-v2
+    lulu_page_limit: 800
     zenodo_file: zenodo/C1v2-omnibus.pdf
     nlm_uat: C1v2-omnibus-v2
     lulu_spine_title: "Soma-Field Collected Works v2"
@@ -453,9 +454,11 @@ collections:
     status: pending-upload
     file: papers/ttheory-vol1.pdf
     build: fractal
+    bld_file: ttheory-vol1.pdf
     make_targets: [vol1]
     nlm: 03-fractal-vol1-foundation
     lulu: 03-ttheory-vol1-foundation
+    lulu_page_limit: 800
     lulu_spine_title: "[T] Vol 1 Foundation"
     lulu_spine_author: "Alistair Johnson"
     lulu_linen: Black
@@ -470,9 +473,11 @@ collections:
     status: pending-upload
     file: papers/ttheory-vol2.pdf
     build: fractal
+    bld_file: ttheory-vol2.pdf
     make_targets: [vol2]
     nlm: 04-fractal-vol2-application
     lulu: 04-ttheory-vol2-application
+    lulu_page_limit: 800
     lulu_spine_title: "[T] Vol 2 Application"
     lulu_spine_author: "Alistair Johnson"
     lulu_linen: Black
@@ -501,6 +506,7 @@ collections:
     file: papers/book-gateway.pdf
     build: fractal
     lulu: ttheory-book-gateway
+    lulu_page_limit: 800
     lulu_spine_title: "[T] 1 The Programme"
     lulu_spine_author: "Alistair Johnson"
     lulu_linen: Red
@@ -528,6 +534,7 @@ collections:
     file: papers/book-physics.pdf
     build: fractal
     lulu: ttheory-book-physics
+    lulu_page_limit: 800
     lulu_spine_title: "[T] 2 Physics"
     lulu_spine_author: "Alistair Johnson"
     lulu_linen: Black
@@ -555,6 +562,7 @@ collections:
     file: papers/book-neuroscience.pdf
     build: fractal
     lulu: ttheory-book-neuroscience
+    lulu_page_limit: 800
     lulu_spine_title: "[T] 5 Neuroscience"
     lulu_spine_author: "Alistair Johnson"
     lulu_linen: Black
@@ -582,6 +590,7 @@ collections:
     file: papers/book-clinical-psychology.pdf
     build: fractal
     lulu: ttheory-book-clinical-psychology
+    lulu_page_limit: 800
     lulu_spine_title: "[T] 9 Psychology"
     lulu_spine_author: "Alistair Johnson"
     lulu_linen: Black
@@ -609,6 +618,7 @@ collections:
     file: papers/book-computer-science.pdf
     build: fractal
     lulu: ttheory-book-computer-science
+    lulu_page_limit: 800
     lulu_spine_title: "[T] 7 Computing"
     lulu_spine_author: "Alistair Johnson"
     lulu_linen: Black
@@ -636,6 +646,7 @@ collections:
     file: papers/book-formal-mathematics.pdf
     build: fractal
     lulu: ttheory-book-formal-mathematics
+    lulu_page_limit: 800
     lulu_spine_title: "[T] 4 Mathematics"
     lulu_spine_author: "Alistair Johnson"
     lulu_linen: Black
@@ -663,6 +674,7 @@ collections:
     file: papers/book-consciousness.pdf
     build: fractal
     lulu: ttheory-book-consciousness
+    lulu_page_limit: 800
     lulu_spine_title: "[T] 6 Consciousness"
     lulu_spine_author: "Alistair Johnson"
     lulu_linen: Black
@@ -690,6 +702,7 @@ collections:
     file: papers/book-complex-systems.pdf
     build: fractal
     lulu: ttheory-book-complex-systems
+    lulu_page_limit: 800
     lulu_spine_title: "[T] 3 Complex Systems"
     lulu_spine_author: "Alistair Johnson"
     lulu_linen: Black
@@ -717,6 +730,7 @@ collections:
     file: papers/book-music-arts.pdf
     build: fractal
     lulu: ttheory-book-music-arts
+    lulu_page_limit: 800
     lulu_spine_title: "[T] 8 Music & Arts"
     lulu_spine_author: "Alistair Johnson"
     lulu_linen: Black
@@ -744,6 +758,7 @@ collections:
     file: papers/book-geophysics.pdf
     build: fractal
     lulu: ttheory-book-geophysics
+    lulu_page_limit: 800
     lulu_spine_title: "[T] 12 Geophysics"
     lulu_spine_author: "Alistair Johnson"
     lulu_linen: Black
@@ -771,6 +786,7 @@ collections:
     file: papers/book-social-science.pdf
     build: fractal
     lulu: ttheory-book-social-science
+    lulu_page_limit: 800
     lulu_spine_title: "[T] 11 Social Science"
     lulu_spine_author: "Alistair Johnson"
     lulu_linen: Black
@@ -798,6 +814,7 @@ collections:
     file: papers/book-economics.pdf
     build: fractal
     lulu: ttheory-book-economics
+    lulu_page_limit: 800
     lulu_spine_title: "[T] 15 Economics"
     lulu_spine_author: "Alistair Johnson"
     lulu_linen: Black
@@ -825,6 +842,7 @@ collections:
     file: papers/book-law.pdf
     build: fractal
     lulu: ttheory-book-law
+    lulu_page_limit: 800
     lulu_spine_title: "[T] 13 Law"
     lulu_spine_author: "Alistair Johnson"
     lulu_linen: Black
@@ -852,6 +870,7 @@ collections:
     file: papers/book-ppe.pdf
     build: fractal
     lulu: ttheory-book-ppe
+    lulu_page_limit: 800
     lulu_spine_title: "[T] 14 PPE"
     lulu_spine_author: "Alistair Johnson"
     lulu_linen: Black
@@ -879,6 +898,7 @@ collections:
     file: papers/book-psychiatry-asd.pdf
     build: fractal
     lulu: ttheory-book-psychiatry-asd
+    lulu_page_limit: 800
     lulu_spine_title: "[T] 10 Psychiatry"
     lulu_spine_author: "Alistair Johnson"
     lulu_linen: Black

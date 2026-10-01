@@ -2,6 +2,9 @@
 
 Upload at **https://lulu.com** — A4, hardcover, standard colour.
 
+All Lulu-designated artifacts use the registry-owned `lulu_page_limit: 800`.
+The U release gate rejects an artifact above that limit before promotion.
+
 ## How to upload a new version
 
 1. Log in → **My Projects** → find the project → **Revise project**

@@ -30,11 +30,15 @@ The [T]-Theory sticker design. Suitable for printing as a die-cut sticker
 
 ---
 
-### `lulu-cover-template/cover-omnibus-v2.tex`
-XeLaTeX source for the Lulu hardcover dust jacket for Omnibus V2.
-Black background, gold [T]-Theory decorative field lines, [T] watermark,
-gold rules. Compile with `xelatex` against the Lulu cover spec
-(spine width = f(page count, paper weight)).
+### Lulu cover-wrap source
+The shared XeLaTeX full-wrap renderer lives in
+[`U/paper/lulu-cover/`](https://github.com/ITI-Theory/U/tree/main/paper/lulu-cover).
+It generates one back-cover/spine/front-cover PDF from the exact custom
+template Lulu supplies after the matching interior has been uploaded. Its
+geometry is never inferred from paper thickness or a generic spine formula.
+
+`lulu-cover-template/cover-omnibus-v2.tex` is retained as an early front-cover
+art proof only; it is not an uploadable Lulu cover wrap.
 
 **Browse:** [`lulu-cover-template/`](https://github.com/ITI-Theory/Dist/tree/main/stuff/lulu-cover-template)
 Paired with: [`Dist/lulu/01-omnibus-v2.pdf`](https://github.com/ITI-Theory/Dist/blob/main/lulu/01-omnibus-v2.pdf)
