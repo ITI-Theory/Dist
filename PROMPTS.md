@@ -110,6 +110,28 @@ interpretations, and open hypotheses.
 
 ---
 
+## Observatory walk-throughs
+
+Picture-first prompts. Each asks for a guided tour through the Soma Machine
+levels, with the evidence label stated at every stop.
+
+- **The blue rubber ball.** Imagine the universe as a solid blue rubber ball.
+  Cut it in half and it is still solid and still blue, with a few heavy
+  crystals set inside. The old picture puts the crystals first (stars,
+  nebulae, planets) and draws gravity as a wire frame between them. Here the
+  blue rubber comes first: the field fills every point, and the crystals are
+  places where it is dense or knotted. You are holding the whole ball, not
+  looking up from Earth or down a microscope, so the view is 3D rather than a
+  2D sky or slide. Walk me through the Soma Machine levels from quantum foam to
+  the observable universe using this picture. At each level, say what the
+  "rubber" and the "crystals" are, and which parts are standard physics (fields
+  defined everywhere, particles as field excitations), which are [T]-Theory
+  model claims, and which are open hypotheses. Then say where the analogy
+  breaks: the ball has an edge and an outside, rubber suggests a rigid aether
+  with a rest frame, and the crystals should be made of the same rubber rather
+  than added to it.
+
+---
 ## Testing and critique
 
 - Which claims are formal checks, which are simulations, and which remain open hypotheses?
