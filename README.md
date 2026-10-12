@@ -146,3 +146,12 @@ and C2 need new versions after the hardening pass.
   1,296 pages; Vol I 575 pages; Vol II 506 pages; Vol III 547 pages.
 - Zenodo will be uploaded through `U/bin/zenodo-publish` after sandbox and
   dry-run checks; per-record metadata lives in `zenodo/metadata.yaml`.
+
+## Licence
+
+Copyright 2026 Alistair Johnson (ORCID 0009-0007-2194-0850). The papers, books, figures and
+data here are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/),
+full text in [LICENSE](LICENSE): you may share and adapt them, also commercially, if you credit
+the author and say what you changed. (Until 13 October 2026 this repository's LICENSE file was
+CC0 1.0 by mistake; the author's licence has always been CC BY 4.0, as on Zenodo.) The code
+in [U](https://github.com/ITI-Theory/U) is Apache-2.0.
