@@ -3,7 +3,7 @@
 Full PDF corpus for deep research and expert interrogation. For a general
 introduction, use [`nlm-min/`](../nlm-min/) instead.
 
-Current PDF count: **30 PDFs** — 24 individual papers (P1–P24), 4
+Current PDF count: **31 PDFs** — 24 individual papers (P1–P24), 5
 collection/volume files, the D2 Lean appendix, and the cheatsheet. Registry
 datasets are E1, D1, and D2; E1 has no single Dist PDF, and D1 is carried by
 the paper release/omnibus rather than a separate file in this directory.
@@ -16,8 +16,9 @@ the paper release/omnibus rather than a separate file in this directory.
 |---|---|---|
 | `01-omnibus-v2.pdf` | Paper omnibus: P1–P24 plus dataset/appendix material carried by the collection | 427 pages |
 | `02-fractal-programme.pdf` | Fractal Thesis: 15 rewritten [T]-Theory domain books | 1,296 pages |
-| `03-fractal-vol1-foundation.pdf` | [T]-Theory Vol I: Foundation | 680 pages |
-| `04-fractal-vol2-application.pdf` | [T]-Theory Vol II: Application | 655 pages |
+| `03-ttheory-vol1-cosmos-matter.pdf` | [T]-Theory Vol I: Cosmos and Matter | 575 pages |
+| `04-ttheory-vol2-mind-body.pdf` | [T]-Theory Vol II: Mind and Body | 506 pages |
+| `06-ttheory-vol3-culture-society.pdf` | [T]-Theory Vol III: Culture and Society | 547 pages |
 | `05-lean-proofs-appendix.pdf` | D2 — Lean 4 Formal Proofs Appendix | formal statements under definitions/axioms |
 | `cheatsheet.pdf` | One-page mathematical reference card | evidence-labelled reference |
 

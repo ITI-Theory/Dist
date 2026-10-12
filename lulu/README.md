@@ -5,7 +5,7 @@ Upload at **https://lulu.com** — A4, hardcover, standard colour.
 All Lulu-designated artefacts use the registry-owned `lulu_page_limit: 800`.
 The U release gate rejects an artefact above that limit before promotion.
 
-## Current candidates — 2026-10-01
+## Current candidates — 2026-10-13
 
 U has built the current candidates and staged them for review. Lulu preview has
 not started; by author decision, app/Atlas review and NotebookLM UAT come first.
@@ -23,8 +23,9 @@ not started; by author decision, app/Atlas review and NotebookLM UAT come first.
 | File | Contents | Pages | Status |
 |---|---|---:|---|
 | `01-omnibus-v2.pdf` | **The Soma-Field: Collected Works — Second Edition**; paper omnibus for P1–P24 plus datasets/appendix material carried by the collection | 427 | Preview after UAT |
-| `03-ttheory-vol1-foundation.pdf` | **[T]-Theory Vol I: Foundation**; foundation-side Fractal Programme volume | 680 | Preview after UAT |
-| `04-ttheory-vol2-application.pdf` | **[T]-Theory Vol II: Application**; application-side Fractal Programme volume | 655 | Preview after UAT |
+| `03-ttheory-vol1-cosmos-matter.pdf` | **[T]-Theory Vol I: Cosmos and Matter**; cosmos-and-matter Fractal Programme volume | 575 | Preview after UAT |
+| `04-ttheory-vol2-mind-body.pdf` | **[T]-Theory Vol II: Mind and Body**; mind-and-body Fractal Programme volume | 506 | Preview after UAT |
+| `05-ttheory-vol3-culture-society.pdf` | **[T]-Theory Vol III: Culture and Society**; culture-and-society Fractal Programme volume | 547 | Preview after UAT |
 
 The full Fractal Thesis omnibus is 1,296 pages and is not a Lulu upload under
 the current 800-page gate.
@@ -57,3 +58,10 @@ old P1–P15 and domain-title wording.
 
 Candidates rebuilt in U: paper omnibus 427 pages, Vol I 680 pages, Vol II
 655 pages. Awaiting NotebookLM UAT and Lulu preview before promotion.
+
+═══════════════════════════════════════════════════════════════
+
+### 2026-10-13 — Three-volume Fractal Programme split
+
+Author-approved split into Vol I: Cosmos and Matter, Vol II: Mind and Body,
+and Vol III: Culture and Society. Current U build page counts: Vol I 575 pages, Vol II 506 pages, Vol III 547 pages.

@@ -123,8 +123,9 @@ author review before first upload.
 | P22 `dark-matter-spatial-vacuum` | First upload | pending-upload | `papers/dark-matter-spatial-vacuum.pdf` |
 | P23 `ttheory-phenomena` | First upload | pending-upload | `papers/ttheory-phenomena.pdf` |
 | P24 `g2-symmetry-breaking` | First upload | pending-upload | `papers/g2-symmetry-breaking.pdf` |
-| C2-vol1 `ttheory-vol1` | First upload | pending-upload | `papers/ttheory-vol1.pdf` |
-| C2-vol2 `ttheory-vol2` | First upload | pending-upload | `papers/ttheory-vol2.pdf` |
+| C2-vol1 `ttheory-vol1-cosmos-matter` | First upload | pending-upload | `papers/ttheory-vol1.pdf` |
+| C2-vol2 `ttheory-vol2-mind-body` | First upload | pending-upload | `papers/ttheory-vol2.pdf` |
+| C2-vol3 `ttheory-vol3-culture-society` | First upload | pending-upload | `papers/ttheory-vol3.pdf` |
 | C2-book-01 `ttheory-book-gateway` | First upload | pending-upload | `papers/book-gateway.pdf` |
 | C2-book-02 `ttheory-book-physics` | First upload | pending-upload | `papers/book-physics.pdf` |
 | C2-book-03 `ttheory-book-complex-systems` | First upload | pending-upload | `papers/book-complex-systems.pdf` |
@@ -198,8 +199,9 @@ and press Enter — Zenodo will split on commas automatically.
 |---|---|---|---|
 | C1v2 | The Soma-Field: Collected Works — Second Edition | Rebuilt paper omnibus containing the current paper corpus and appendices; 427 pages in the current candidate. | collected works, soma field, Universal Somatic Field, papers, omnibus |
 | C2 | [T]-Theory: The Complete Fractal Programme — Fifteen Domain Books on the Universal Somatic Field | Rebuilt Fractal Thesis collecting the 15 source-owned domain books; current candidate is 1,296 pages. | [T]-Theory, Fractal Programme, domain books, Universal Somatic Field, thesis |
-| C2-vol1 | [T]-Theory Vol I: Foundation | Print volume for the foundation-side Fractal Programme; current candidate is 680 pages. | [T]-Theory, foundation, Fractal Programme, print volume |
-| C2-vol2 | [T]-Theory Vol II: Application | Print volume for the application-side Fractal Programme; current candidate is 655 pages. | [T]-Theory, application, Fractal Programme, print volume |
+| C2-vol1 | [T]-Theory Vol I: Cosmos and Matter | Print volume for the cosmos-and-matter Fractal Programme; current candidate is 575 pages. | [T]-Theory, cosmos, matter, Fractal Programme, print volume |
+| C2-vol2 | [T]-Theory Vol II: Mind and Body | Print volume for the mind-and-body Fractal Programme; current candidate is 506 pages. | [T]-Theory, mind, body, Fractal Programme, print volume |
+| C2-vol3 | [T]-Theory Vol III: Culture and Society | Print volume for the culture-and-society Fractal Programme; current candidate is 547 pages. | [T]-Theory, culture, society, Fractal Programme, print volume |
 
 ---
 

@@ -30,7 +30,7 @@ external actions.
 | Track | Principal candidate | Main UAT | External action |
 |---|---|---|---|
 | **Papers** | `omnibus-a4.pdf`, changed canonical papers, D1/D2 | Scientific consistency, source/claim review, NotebookLM | Zenodo new versions/new records |
-| **[T]-Theory** | Fractal Thesis, Volumes I/II, cheatsheet | Reader/cheatsheet review, NotebookLM, print review | Lulu; C2 Zenodo version only after thesis acceptance |
+| **[T]-Theory** | Fractal Thesis, Volumes I/II/III, cheatsheet | Reader/cheatsheet review, NotebookLM, print review | Lulu; C2 Zenodo version only after thesis acceptance |
 
 ### The release cycle
 
@@ -71,8 +71,7 @@ and artefacts affected.
 ### Current state — 2026-10-01
 
 - U has built and staged the current candidates: paper omnibus `omnibus-a4.pdf`
-  (427 pages), Fractal Thesis (1,296 pages), Vol I (680 pages), Vol II
-  (655 pages), all fifteen standalone [T]-Theory books, and the booklet set.
+  (427 pages), Fractal Thesis (1,296 pages), Vol I (575 pages), Vol II (506 pages), Vol III (547 pages), all fifteen standalone [T]-Theory books, and the booklet set.
 - Candidates are staged in `U/uat/staging/papers/` and
   `U/uat/staging/ttheory/` with SHA-256 manifests.
 - UAT has **not** started. By the author's decision, the app/Atlas review comes
@@ -144,6 +143,6 @@ and C2 need new versions after the hardening pass.
   "[T]-Theory: <Name>" titles; the former consciousness book is now
   **[T]-Theory: Philosophy**.
 - Current candidate page counts: paper omnibus 427 pages; Fractal Thesis
-  1,296 pages; Vol I 680 pages; Vol II 655 pages.
+  1,296 pages; Vol I 575 pages; Vol II 506 pages; Vol III 547 pages.
 - Zenodo will be uploaded through `U/bin/zenodo-publish` after sandbox and
   dry-run checks; per-record metadata lives in `zenodo/metadata.yaml`.

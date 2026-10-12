@@ -246,8 +246,8 @@ C2-vol1:
   upload_type: publication
   publication_type: book
   description: >-
-    Volume 1 of the [T]-Theory Fractal Programme, presenting the foundation-oriented domain books and their shared Universal Somatic Field vocabulary. It is a synthetic research-programme volume with assumptions and validation limits stated in the source texts.
-  keywords: ["[T]-Theory", Fractal Programme, foundation, Universal Somatic Field, cross-domain modelling, Green function]
+    Volume I of the [T]-Theory Fractal Programme, Cosmos and Matter, presenting the gateway, physics, mathematics, complex-systems, computing, and geophysics books and their shared Universal Somatic Field vocabulary. It is a synthetic research-programme volume with assumptions and validation limits stated in the source texts.
+  keywords: ["[T]-Theory", Fractal Programme, cosmos, matter, Universal Somatic Field, physics, mathematics]
   related_identifiers:
     - {identifier: "10.5281/zenodo.21873721", scheme: doi, relation: isPartOf, resource_type: publication}
 
@@ -255,8 +255,17 @@ C2-vol2:
   upload_type: publication
   publication_type: book
   description: >-
-    Volume 2 of the [T]-Theory Fractal Programme, presenting application-oriented domain books across society, law, economics, clinical psychology, psychiatry, geophysics, and related fields. It is a modelling and interpretation volume, not a peer-reviewed empirical validation.
-  keywords: ["[T]-Theory", Fractal Programme, applications, Universal Somatic Field, society, law, economics, clinical psychology]
+    Volume II of the [T]-Theory Fractal Programme, Mind and Body, presenting neuroscience, philosophy, trauma, and rewiring domain books. It is a modelling and interpretation volume, not a peer-reviewed empirical validation.
+  keywords: ["[T]-Theory", Fractal Programme, mind, body, neuroscience, philosophy, trauma]
+  related_identifiers:
+    - {identifier: "10.5281/zenodo.21873721", scheme: doi, relation: isPartOf, resource_type: publication}
+
+C2-vol3:
+  upload_type: publication
+  publication_type: book
+  description: >-
+    Volume III of the [T]-Theory Fractal Programme, Culture and Society, presenting music and the arts, social science, economics, law, PPE, and the closing gateway to Phase 2. It is a modelling and interpretation volume, not a peer-reviewed empirical validation.
+  keywords: ["[T]-Theory", Fractal Programme, culture, society, music, economics, law, PPE]
   related_identifiers:
     - {identifier: "10.5281/zenodo.21873721", scheme: doi, relation: isPartOf, resource_type: publication}
 
