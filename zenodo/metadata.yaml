@@ -3,7 +3,7 @@
 # from PAPERS.yaml by bin/zenodo-publish; this file supplies only Zenodo metadata
 # that is not already in the registry. Public descriptions are deliberately
 # hardened to the 2026-10-01 release facts: no hardware/D-Wave claims for
-# QUANT-EXP-1, no file-level "0 sorries" claim for Lean, no claim that the
+# QUANT-EXP-1, no count of sorries or axioms in prose (counts go stale, ISS-093), no claim that the
 # programme is derived from M-theory, and simulations are named as simulations.
 
 P1:
@@ -109,7 +109,7 @@ P14:
   upload_type: publication
   publication_type: article
   description: >-
-    A free-Gaussian Universal Somatic Field model is identified with the massive Gaussian Free Field under a stated m ↔ k assumption, allowing imported OSforGFF Lean theorem applications for the Osterwalder-Schrader axioms. The record states that wider project proof status is theorem-specific, includes axioms, and includes seven real sorries elsewhere.
+    A free-Gaussian Universal Somatic Field model is identified with the massive Gaussian Free Field under a stated m ↔ k assumption, allowing imported OSforGFF Lean theorem applications for the Osterwalder-Schrader axioms. The record states that wider project proof status is theorem-specific and includes axioms.
   keywords: [Osterwalder-Schrader axioms, Euclidean QFT, Gaussian Free Field, reflection positivity, Lean 4, constructive QFT]
   related_identifiers:
     - {identifier: "10.5281/zenodo.20460771", scheme: doi, relation: isPartOf, resource_type: publication}
@@ -204,6 +204,15 @@ P24:
   related_identifiers:
     - {identifier: "10.5281/zenodo.21873942", scheme: doi, relation: isPartOf, resource_type: publication}
 
+P25:
+  upload_type: publication
+  publication_type: article
+  description: >-
+    A paper specifying an open extension to the programme's energy-landscape account of transition: some trauma, overload or recovery transitions may be limited by the cumulative action or coordination cost of an admissible route through state space rather than by one local barrier. It distinguishes minimum-action, stochastic-path and path-integral languages, defines a candidate state space, admissible paths, an action functional and observables, and lists data that could discriminate a single-barrier from a distributed path-cost explanation. An open hypothesis; no clinical mechanism is established.
+  keywords: [path-sensitive transitions, action functional, minimum action path, energy landscape, stochastic paths, Universal Somatic Field, open hypothesis]
+  related_identifiers:
+    - {identifier: "10.5281/zenodo.21873942", scheme: doi, relation: isPartOf, resource_type: publication}
+
 D1:
   upload_type: publication
   publication_type: article
@@ -215,7 +224,7 @@ D2:
   upload_type: publication
   publication_type: article
   description: >-
-    An appendix reproducing and explaining the Lean 4 formal artefacts for the programme. Lean accepts named files and declarations under their definitions, axioms, imports, and explicit placeholders; the appendix documents axioms and seven real sorry stubs rather than claiming a file-level zero-sorry proof certificate.
+    An appendix reproducing and explaining the Lean 4 formal artefacts for the programme. Lean accepts named files and declarations under their definitions, axioms, imports, and explicit placeholders; the appendix documents the axioms and each file's proof status rather than claiming more than the kernel checks.
   keywords: [Lean 4, formal methods, proof assistant, Mathlib, Soma-Field, theorem proving, proof status]
 
 E1:

@@ -26,6 +26,28 @@ Zenodo uploads are done with `U/bin/zenodo-publish` (run `plan` first; sandbox b
 - Live tokens are read from `ZENODO_TOKEN`; sandbox tokens from
   `ZENODO_SANDBOX_TOKEN`.
 - Tokens must stay in the environment and must never be committed.
+
+### Sandbox setup (once)
+
+The sandbox (https://sandbox.zenodo.org) is a separate site: its own account, its own
+token, and none of the live records or the `iti-theory` community.
+
+1. Sign up at https://sandbox.zenodo.org (GitHub or ORCID login works).
+2. Account → Applications → Personal access tokens → New token, scopes
+   `deposit:write` and `deposit:actions`.
+3. Put it in the user environment, never in a file: PowerShell
+   `[Environment]::SetEnvironmentVariable('ZENODO_SANDBOX_TOKEN', '<token>', 'User')`,
+   then open a new terminal.
+4. `U/bin/zenodo-publish --sandbox check-token`: one read, no writes.
+5. After `make dist`: `U/bin/zenodo-publish --sandbox rehearse` makes every planned record
+   as a sandbox draft. New records stay unpublished drafts; a new version is made on a
+   published sandbox seed of the same file, since the live concept DOIs do not exist
+   there. The report is `U/bld/zenodo/sandbox-rehearsal.md`; read two or three drafts
+   in the browser (title, description, licence, file).
+6. Then live: `ZENODO_TOKEN` the same way (zenodo.org), `plan`, drafts, `--publish --yes`.
+
+Optional: create a sandbox community and set `ZENODO_SANDBOX_COMMUNITY` to its identifier to
+test the community request too; without it the sandbox drafts carry no community.
 - Per-record metadata lives in `zenodo/metadata.yaml`; this README mirrors the
   public wording for review and paste checks.
 
@@ -37,8 +59,9 @@ Zenodo uploads are done with `U/bin/zenodo-publish` (run `plan` first; sandbox b
 - Lean checks named formal statements under their definitions and axioms; it
   does not establish the physical or clinical interpretation of those
   definitions.
-- The current Lean surface includes 20 axioms in `FieldAxioms.lean` and seven
-  real `sorry`s.
+- Do not write counts of axioms or `sorry`s into public text: they go stale within
+  hours (ISS-093). Say the Lean includes declared axioms; the current figures come
+  from the towers export and `make concepts` in U.
 - M-theory language is motivation/model structure: use "modelled on" or
   "motivated by an 11-dimensional decomposition"; do not present the model as
   established high-energy physics.
@@ -57,7 +80,7 @@ Community URL: https://zenodo.org/communities/iti-theory/settings
 **Short description** (paste into Settings → Short description):
 
 ```
-Universal Somatic Field and [T]-Theory research programme: 24 papers, datasets,
+Universal Somatic Field and [T]-Theory research programme: 25 papers, datasets,
 Lean 4 formal artefacts, simulations, and 15 domain books. Evidence-labelled
 open research by Alistair Johnson · ORCID 0009-0007-2194-0850 · Zurich.
 ```
@@ -77,11 +100,11 @@ methods; clinical, physical, and consciousness claims are explicitly labelled
 as formal checks, model-derived results, simulations, interpretations, or open
 hypotheses.
 
-The collection includes 24 papers (P1–P24), datasets and appendices (E1, D1,
-D2), collected works, an exact 8-qubit statevector simulation (QUANT-EXP-1),
+The collection includes 25 papers (P1–P25), a paper on the Sherlock checker
+(SH1), datasets and appendices (E1, D1, D2), collected works, an exact 8-qubit statevector simulation (QUANT-EXP-1),
 Lean 4 formal artefacts, and the [T]-Theory Fractal Programme of 15 domain
 books. The Lean files check named statements under their definitions and
-axioms; the current proof surface includes axioms and remaining sorries. The
+axioms; the proof surface includes declared axioms, each documented. The
 work is public, citable, and falsifiable, but it is not peer reviewed and does
 not provide medical advice.
 ```
