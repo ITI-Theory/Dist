@@ -46,6 +46,19 @@ token, and none of the live records or the `iti-theory` community.
    in the browser (title, description, licence, file).
 6. Then live: `ZENODO_TOKEN` the same way (zenodo.org), `plan`, drafts, `--publish --yes`.
 
+### DOIs before the print run
+
+The 22 new records get their DOIs when they are published; the books cite concept DOIs, so to
+print the final DOIs the drafts come first:
+
+1. `U/bin/zenodo-publish reserve`: an unpublished draft per new record (metadata, no file),
+   with a pre-reserved DOI, kept in `zenodo/reserved.yaml`. Nothing is public yet; a draft
+   can be deleted on zenodo.org.
+2. `U/bin/zenodo-publish fill-dois`: the concept DOIs into `PAPERS.yaml` (only empty `doi`
+   fields); then `make generate` and the build in U, so the books print them.
+3. After UAT acceptance and `make dist`: `U/bin/zenodo-publish create <ids>` fills the reserved
+   drafts with their files, and `--publish --yes` publishes them; the new versions as before.
+
 Optional: create a sandbox community and set `ZENODO_SANDBOX_COMMUNITY` to its identifier to
 test the community request too; without it the sandbox drafts carry no community.
 - Per-record metadata lives in `zenodo/metadata.yaml`; this README mirrors the
